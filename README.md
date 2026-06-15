@@ -1,0 +1,1 @@
+# seyfettinaskar7-sudo.github.io
