@@ -108,7 +108,7 @@ https://streams.uzunmuhalefet.com/stream/49c9a96d-f9c0-474e-b2f7-5e62bbdd0290.m3
 #EXTINF:-1 group-title="Ulusal - Yurt Dışı" tvg-logo="https://assets.uzunmuhalefet.com/logos/4c4b6e4f-ff3c-4e73-bc6e-19501c9aeb95.png" tvg-url="https://www.tv8.com.tr/sayfa-tv8-international",TV8 Int
 http://euroturkpars6.live:8080/play/live.php?mac=00:1A:79:54:FC:B1&stream=1883&extension=m3u8
 #EXTINF:-1 group-title="Ulusal - Yurt Dışı" tvg-logo="https://assets.uzunmuhalefet.com/logos/541a8fb1-28b8-4532-98f2-d65376231188.png" tvg-url="https://www.eurostartv.com.tr/",Euro Star
-https://streams.uzunmuhalefet.com/stream/00b00dd0-dccb-4500-acce-1ea0b187a500.m3u8
+https://stream-extractor.koprulu2.workers.dev/?url=https://www.parsatv.com/m/name=Euro-Star&ext=m3u8
 #EXTINF:-1 group-title="Ulusal - Yurt Dışı" tvg-logo="https://assets.uzunmuhalefet.com/logos/ba21c671-ff84-4bf0-97b5-8b326291d36b.png" tvg-url="https://kanalavrupa.tv/",Kanal Avrupa
 https://streams.uzunmuhalefet.com/stream/92ccdd1d-1d3e-47eb-b84b-e75effe16829.m3u8
 #EXTINF:-1 group-title="Haber - Yurt Dışı" tvg-logo="https://assets.uzunmuhalefet.com/logos/aae0367d-c9ab-45a2-8518-0968cd5d2f55.png" tvg-url="https://www.trtworld.com.tr/",TRT World
