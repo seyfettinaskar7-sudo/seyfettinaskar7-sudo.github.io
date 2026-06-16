@@ -365,6 +365,16 @@ https://streams.uzunmuhalefet.com/stream/031834d1-2c3c-4e76-9f54-bb8a6471bcb2.m3
 https://streams.uzunmuhalefet.com/stream/ba3f9a6d-85a8-4100-b716-95b98a2a3ab3.m3u8
 #EXTINF:-1 group-title="Müzik" tvg-logo="https://assets.uzunmuhalefet.com/logos/05f87412-5cd3-41ee-9874-66e41121c6eb.png" tvg-url="https://www.turkuvapp.com/",Chill TV
 https://streams.uzunmuhalefet.com/stream/7cded060-e914-4c19-9adc-ba95c80e3697.m3u8
+#EXTINF:0 type="stream" group-title="Müzik" channelId="-1" tvg-logo="https://i.imgur.com/eSv8Ph4.png", Demo TV
+http://snmtv.ozelip.com:2052/demotv/demotv/playlist.m3u8
+#EXTINF:0 type="stream" group-title="Müzik" channelId="-1" tvg-logo="https://i.imgur.com/jX5AUtA.png", Genç Kral TV
+http://snmtv.ozelip.com:2052/genckraltv/genckraltv/playlist.m3u8
+#EXTINF:0 type="stream" group-title="Müzik" channelId="-1" tvg-logo="https://i.imgur.com/RvIwh2q.png", Özburun TV
+http://ozburuntvbox700.ozelip.com:2052/ozburuntv/ozburuntv/playlist.m3u8
+#EXTINF:-1 group-title="Müzik" tvg-logo="https://assets.uzunmuhalefet.com/logos/05f87412-5cd3-41ee-9874-66e41121c6eb.png" tvg-url="https://www.turkuvapp.com/" tvg-id="Kanal65.tr",Kanal 65
+https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/catcast/kanal-65.m3u8
+#EXTINF:-1 group-title="Müzik" tvg-logo="https://assets.uzunmuhalefet.com/logos/05f87412-5cd3-41ee-9874-66e41121c6eb.png" tvg-url="https://www.turkuvapp.com/" tvg-id="RihatMusic.tr",Rihat Music
+https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/catcast/rihatmusic.m3u8
 #EXTINF:-1 group-title="Belgesel" tvg-logo="https://assets.uzunmuhalefet.com/logos/df68b5b5-c14f-4d9c-a8cb-b34a02f50c18.png" tvg-url="https://www.trtbelgesel.com.tr/",TRT Belgesel
 https://streams.uzunmuhalefet.com/stream/d2c6d071-d252-4b73-9607-df0084017f2e.m3u8
 #EXTINF:-1 group-title="Belgesel" tvg-logo="https://assets.uzunmuhalefet.com/logos/22f97725-d582-42bb-a50a-e2437125558a.png" tvg-url="https://www.tgrtbelgesel.com.tr/",TGRT Belgesel
