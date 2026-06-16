@@ -119,6 +119,72 @@ https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 https://hls.4utv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4UFamily.tr@SD" tvg-logo="" group-title="Eğlence - Yurt Dışı",4U Family
 https://familyhls.4utv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AlRafidainTV.tr@SD" tvg-logo="https://i.imgur.com/rjXDCN5.png" group-title="Haber & Dini - Yurt Dışı",Al Rafidain 
+https://arrafidain.tvplayer.online/arrafidaintv/source/playlist.m3u8
+#EXTINF:-1 tvg-id="AlmahriahTV.tr@SD" tvg-logo="https://i.imgur.com/GgEeTNr.png" group-title="Haber - Yurt Dışı",Almahriah TV
+https://starmenajo.com/hls/almahriah/index.m3u8
+#EXTINF:-1 tvg-id="AlQanat9.tr@SD" tvg-logo="https://i.imgur.com/HC91Mho.png" group-title="Haber - Yurt Dışı",Alqanat9 TV
+https://cdn.bestream.io:19360/alqanat9/alqanat9.m3u8
+#EXTINF:-1 tvg-id="EkranMovies.ir@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9bCC3hzaQ9aMOnDIXmc1Bfh-Xp4vjB3NlDw&s" group-title="Sinema - Yurt Dışı",Ekran Movies
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/EkranMovies/index-0.m3u8
+#EXTINF:-1 tvg-id="ElsharqTV.tr@SD" tvg-logo="https://i.imgur.com/8vmfZb5.png" group-title="Ulusal - Yurt Dışı",Elsharq TV
+https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
+#EXTINF:-1 tvg-id="GEMBollywood.tr@SD" tvg-logo="https://i.imgur.com/2XASeBk.png" group-title="Sinema - Yurt Dışı",GEM Bollywood
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gembollywood/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMClassic.tr@SD" tvg-logo="https://i.imgur.com/25BhuOf.png" group-title="Klasik - Yurt Dışı",GEM Classic
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemclassic/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMComedy.tr@SD" tvg-logo="https://i.imgur.com/FuscfJW.png" group-title="Komedi - Yurt Dışı",GEM Comedy
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemcomedy/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMDrama.tr@SD" tvg-logo="https://i.imgur.com/k2pGyRH.png" group-title="Sinema - Yurt Dışı",GEM Drama
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemdrama/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMDramaPlus.tr@SD" tvg-logo="https://gemgroup.tv/assets/images/channels/icon_7.png" group-title="Sinema - Yurt Dışı",GEM Drama Plus
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemdramaplus/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMFilm.tr@SD" tvg-logo="https://i.imgur.com/nrFz3LU.png" group-title="Sinema - Yurt Dışı",GEM Film
+https://ca-rt.onetv.app/gemfilm/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMFit.tr@SD" tvg-logo="https://i.imgur.com/7FQxaII.png" group-title="Spor - Yurt Dışı",GEM Fit
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemfit/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMFood.tr@SD" tvg-logo="https://i.imgur.com/SMtSinK.png" group-title="Yemek - Yurt Dışı",GEM Food
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemfood/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMJunior.tr@SD" tvg-logo="https://i.imgur.com/jK8yzj2.png" group-title="Çocuk - Yurt Dışı",GEM Junior
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemjunior/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMKids.tr@SD" tvg-logo="https://i.imgur.com/ArkjaFk.png" group-title="Çocuk - Yurt Dışı",GEM Kids
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemkids/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMLife.tr@SD" tvg-logo="https://i.imgur.com/gI8qePa.png" group-title="Yaşam Tarzı",GEM Life
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemlife/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMMifa.tr@SD" tvg-logo="https://i.imgur.com/qlI7o7V.png" group-title="Müzik - Yurt Dışı",GEM Mifa
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemmifa/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMMifaPlus.tr@SD" tvg-logo="https://i.imgur.com/8FIAqR5.png" group-title="Müzik - Yurt Dışı",GEM Mifa Plus
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemmifaplus/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMNature.tr@SD" tvg-logo="https://i.imgur.com/ENvOMDQ.png" group-title="Belgesel - Yurt Dışı",GEM Nature
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemnature/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMOnyx.tr@SD" tvg-logo="https://i.imgur.com/gXRIAw4.png" group-title="Sinema - Yurt Dışı",GEM Onyx
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemonyx/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMPixel.tr@SD" tvg-logo="https://i.ibb.co/Q3tkbPrn/icon-27.png" group-title="Oyun - Yurt Dışı",GEM Pixel
+https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8
+#EXTINF:-1 tvg-id="GEMRiver.tr@SD" tvg-logo="https://i.imgur.com/yJ6f1B6.png" group-title="Eğlence - Yurt Dışı",GEM River
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemriver/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMRiverPlus.tr@SD" tvg-logo="https://gemgroup.tv/assets/images/channels/icon_29.png" group-title="Eğlence - Yurt Dışı",GEM River Plus
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemriverplus/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMRubix.tr@SD" tvg-logo="https://i.imgur.com/cDjOj58.png" group-title="Sinema - Yurt Dışı",GEM Rubix
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemrubix/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMRubixPlus.tr@SD" tvg-logo="https://gemgroup.tv/assets/images/channels/icon_31.png" group-title="Sinema - Yurt Dışı",GEM Rubix Plus
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMSeries.tr@SD" tvg-logo="https://i.imgur.com/M0WMDXm.png" group-title="Series",GEM Series
+https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemseries/index-0.m3u8
+#EXTINF:-1 tvg-id="GEMSeriesPlus.tr@SD" tvg-logo="https://gemgroup.tv/assets/images/channels/icon_33.png" group-title="Dizi - Yurt Dışı",GEM Series Plus
+https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://ca-rt.onetv.app/gemseriesplus/index-0.m3u8
+#EXTINF:-1 tvg-id="GrandCinema.tr@SD" tvg-logo="https://www.lyngsat.com/logo/tv/gg/grand-cinema.png" group-title="Sinema - Yurt Dışı",Grand Cinema
+https://gcinemahls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="MekameleenTV.tr@SD" tvg-logo="https://i.imgur.com/q7iVchl.png" group-title="Haber - Yurt Dışı",Mekameleen TV
+https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PersianaTurkiye.fr@SD" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-turkiye-fr.png" group-title="Eğlence - Yurt Dışı",Persiana Turkiye
+https://turkhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="QafTV.tr@SD" tvg-logo="https://i.imgur.com/hrk7Uce.png" group-title="Haber - Yurt Dışı",Qaf TV
+https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8
+#EXTINF:-1 tvg-id="ZarokTV.tr@SD" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Çocuk - Yurt Dışı",Zarok TV
+https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ZarokTV.tr@SD" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Çocuk - Yurt Dışı",Zarok TV Sorani
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 group-title="Ekonomi" tvg-logo="https://assets.uzunmuhalefet.com/logos/144ddf6c-e2df-4725-a292-3400c3216ad8.png" tvg-url="https://www.apara.com.tr/",A Para
 https://streams.uzunmuhalefet.com/stream/cc4f4e0d-e70f-4d1b-87f7-4f9c205c2767.m3u8
 #EXTINF:-1 group-title="Ekonomi" tvg-logo="https://assets.uzunmuhalefet.com/logos/e31b4e7f-7a0f-43dc-ab5c-57b2c373de96.png" tvg-url="https://www.bloomberght.com/",Bloomberg HT
