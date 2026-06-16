@@ -117,6 +117,8 @@ https://tv-trtworld.medya.trt.com.tr/master.m3u8
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="4UTV.tr@SD" tvg-logo="https://i.imgur.com/PexhKwp.png" group-title="Eğlence - Yurt Dışı",4U TV
 https://hls.4utv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="4UFamily.tr@SD" tvg-logo="" group-title="Eğlence - Yurt Dışı",4U Family
+https://familyhls.4utv.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Ekonomi" tvg-logo="https://assets.uzunmuhalefet.com/logos/144ddf6c-e2df-4725-a292-3400c3216ad8.png" tvg-url="https://www.apara.com.tr/",A Para
 https://streams.uzunmuhalefet.com/stream/cc4f4e0d-e70f-4d1b-87f7-4f9c205c2767.m3u8
 #EXTINF:-1 group-title="Ekonomi" tvg-logo="https://assets.uzunmuhalefet.com/logos/e31b4e7f-7a0f-43dc-ab5c-57b2c373de96.png" tvg-url="https://www.bloomberght.com/",Bloomberg HT
@@ -369,8 +371,18 @@ https://streams.uzunmuhalefet.com/stream/93329d75-7b41-414e-886e-9c05783bb35f.m3
 https://streams.uzunmuhalefet.com/stream/928b9f56-271c-440f-90ec-bedd7efc8f5f.m3u8
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/414741a6-2fd4-4117-978c-3ee8b0f4d099.png" tvg-url="https://www.semerkandway.com/",Semerkand Way
 https://streams.uzunmuhalefet.com/stream/a7795b5c-44dd-4a7e-b428-af25170193c5.m3u8
+#EXTINF:1 tvg-id="FMTV.tr" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/333628a7-761b-4ee8-aade-c18980c53b21.png" group-title="Dini",FM TV
+http://mugla.tvizlehd.com/live/fmtv.m3u8
+#EXTINF:1 tvg-id="" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/9c294aa6-56c9-409e-91a7-49c8d5253f0c.png" group-title="Dini",Ahsenül Takvim TV
+https://tv170.ozelip.com:1936/takvimtv/takvimtv/playlist.m3u8
+#EXTINF:1 tvg-id="BeratTV.tr" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/4b7651d0-c18c-4672-8d6a-f2e5e66fb300.png" group-title="Dini",Berat TV
+http://cdn-berattv.yayin.com.tr/berattv/berattv/playlist.m3u8
+#EXTINF:1 tvg-id="" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/cc36a4d2-300b-4793-babc-af415560941c.png" group-title="Dini",Camia TV
+https://camiatv-live.ercdn.net/camiatv/camiatv_1080p.m3u8
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/1e6619aa-53c0-4fbd-ba2c-cdbf3f301d7c.png" tvg-url="https://dosttv.com/",Dost TV
 https://streams.uzunmuhalefet.com/stream/8c40da6c-cbfb-48f9-a38e-0b419d8c121f.m3u8
+#EXTINF:1 tvg-id="GoncaTV.tr" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/fd35fe6a-c4fb-413f-84dc-f9e5afff6cba.png" group-title="Dini",Gonca TV
+https://broadcasttr.com:446/tuncerciftci/bant1/chunklist_w66239823.m3u8
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/b42ad734-129d-46e4-a6ce-7e55ac444d53.png" tvg-url="https://meltemtv.com.tr/",Meltem TV
 https://streams.uzunmuhalefet.com/stream/f49b3cb6-cd33-4064-97a1-8b0c79d3681a.m3u8
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/44dd0128-9d22-4aed-b9ca-375b90cdb06e.png" tvg-url="https://www.ikratv.com/",İkra TV
@@ -381,8 +393,12 @@ https://streams.uzunmuhalefet.com/stream/a1fe7242-b547-4db8-b6e3-217fb277b1a8.m3
 https://streams.uzunmuhalefet.com/stream/2f818fdb-97ae-41c5-8bbf-ca099b687d9a.m3u8
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/59fcc8b0-6ead-4af0-8e58-5a9dd6c9615f.png" tvg-url="https://www.kanal12.net/",Kanal 12
 https://streams.uzunmuhalefet.com/stream/9947c43e-56a6-44f0-b1a3-dffad5f49fa2.m3u8
+#EXTINF:1 tvg-id="KudusTV.tr" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/da557025-7638-4ae6-83b9-dd7d5dcd7ef4.png" group-title="Dini",Kudüs TV
+https://yayin30.haber100.com/live/kudustv/playlist.m3u8
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/b30fbf52-ad6a-47fd-8873-798070b40847.png" tvg-url="https://www.mihrap.tv/",Mihrap TV
 https://streams.uzunmuhalefet.com/stream/64da9674-b362-4e63-9592-be060b05e015.m3u8
+#EXTINF:1 tvg-id="" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/b0770721-6196-4d6d-8488-02c4ef2499ec.png" group-title="Dini",Minber TV
+http://hd9994.4kradyotv.com:26606/minbertv/minbertv/playlist.m3u8
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/e0e94025-cf7c-4aea-95b4-99c550341b24.png" tvg-url="https://rehbertv.com.tr/",Rehber TV
 https://streams.uzunmuhalefet.com/stream/a3f446e5-a870-47f2-b351-dee7c6f163a4.m3u8
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/4f12cc97-8074-4c55-850f-88ce1556dd8c.png" tvg-url="https://nurtv.tv/",Nur TV
@@ -433,6 +449,10 @@ https://streams.uzunmuhalefet.com/stream/7918c3a5-e8d2-4e9f-9a04-dfa46cf92769.m3
 https://streams.uzunmuhalefet.com/stream/e52acdf9-6fbe-48b5-a962-b89b436e377d.m3u8
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/f742c0f0-5a11-4437-a23e-e23892cb5b49.png" tvg-url="https://www.huzurpinari.com/",Huzur Pınarı
 https://streams.uzunmuhalefet.com/stream/2ac01db4-b87f-4b34-bc31-f59fa0f155a2.m3u8
+#EXTINF:1 tvg-id="QuranTV.sa" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/081083b4-62b6-43b1-b9c2-10035c60ad90.png" group-title="Dini",Al Quran Al Kareem TV
+http://m.live.net.sa:1935/live/quran/playlist.m3u8
+#EXTINF:1 tvg-id="SunnaTV.sa" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/a03f8315-fa11-4d3c-b73b-cf5fcac6ea8c.png" group-title="Dini",Al Sunnah Al Nabawiyah
+http://m.live.net.sa:1935/live/sunnah/playlist.m3u8
 #EXTINF:-1 group-title="Diğer" tvg-logo="https://assets.uzunmuhalefet.com/logos/0bbe8ea1-7fa3-402d-8e96-1836077458d7.png" tvg-url="https://1tvtr.com/",1TVTR
 https://streams.uzunmuhalefet.com/stream/8067831b-abf7-4cf9-adcb-abea2d1409a1.m3u8
 #EXTINF:-1 group-title="Diğer" tvg-logo="https://assets.uzunmuhalefet.com/logos/3ad1c386-1f55-4d2a-b94e-a9c17dd01912.png" tvg-url="http://azarnegari.com/",Ahad TV
@@ -879,6 +899,8 @@ https://streams.uzunmuhalefet.com/stream/be1ae12e-191c-4a02-be85-c33ba85d2525.m3
 https://streams.uzunmuhalefet.com/stream/87fee393-281a-499c-97c3-18ff5c7b2289.m3u8
 #EXTINF:-1 group-title="Kıbrıs" tvg-logo="https://assets.uzunmuhalefet.com/logos/34fb31ce-3a6c-4d7b-b731-c7e08cc6c66a.png" tvg-url="https://brtk.net/",BRT 2
 https://streams.uzunmuhalefet.com/stream/9dde3626-6984-4f64-9683-dc3b3d0a843d.m3u8
+#EXTINF:1 tvg-id="BRT3.cy" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/759ceb97-ae3b-4d0b-bbcb-d869988d5f66.png" group-title="Kıbrıs",BRT 3
+https://mugla.tvizlehd.com/live/brt3.m3u8
 #EXTINF:-1 group-title="Kıbrıs" tvg-logo="https://assets.uzunmuhalefet.com/logos/8d64858c-5307-409d-9c62-dcc98589c043.png" tvg-url="https://www.adatv.tv/",Ada TV
 https://streams.uzunmuhalefet.com/stream/975e6a82-279a-4b00-a9b4-85c92f480803.m3u8
 #EXTINF:-1 group-title="Kıbrıs" tvg-logo="https://assets.uzunmuhalefet.com/logos/62b08979-f113-4cd8-a086-f26bb441ac14.png" tvg-url="https://www.kibrisgenctv.com/",Genç TV
