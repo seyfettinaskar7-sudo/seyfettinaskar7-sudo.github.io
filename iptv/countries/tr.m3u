@@ -329,6 +329,8 @@ https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/chec
 https://streams.uzunmuhalefet.com/stream/6583f90f-0bff-4523-9547-1c9a96280b2e.m3u8
 #EXTINF:-1 group-title="Müzik" tvg-logo="https://assets.uzunmuhalefet.com/logos/2bb603cc-f72e-484e-8c70-98f82cc7529d.png" tvg-url="https://www.dreamturk.com.tr/",Dream Türk
 https://streams.uzunmuhalefet.com/stream/99d052f1-9bdc-4fc2-ba48-2db6d9c99b8c.m3u8
+#EXTINF:-1 group-title="Müzik" tvg-logo="https://assets.uzunmuhalefet.com/logos/209495ee-35fc-47b8-b442-f9a410110970.png" tvg-url="https://www.dreamtv.com.tr/",Dream TV
+http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=455&extension=m3u8
 #EXTINF:-1 group-title="Müzik" tvg-logo="https://assets.uzunmuhalefet.com/logos/b6441709-2184-4419-9203-8efb784857ca.png" tvg-url="https://www.powerapp.com.tr/",Powertürk TV
 https://streams.uzunmuhalefet.com/stream/08667b7a-2535-4cc1-9719-76cf7df77eaa.m3u8
 #EXTINF:-1 group-title="Müzik" tvg-logo="https://assets.uzunmuhalefet.com/logos/358e2281-a615-4bfb-92e1-1f093756234a.png" tvg-url="https://www.powerapp.com.tr/",Power TV
