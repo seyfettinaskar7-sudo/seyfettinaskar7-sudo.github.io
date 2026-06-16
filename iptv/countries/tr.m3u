@@ -393,6 +393,10 @@ https://streams.uzunmuhalefet.com/stream/9efc9a12-1d9b-4812-9596-021dbc3554d0.m3
 https://streams.uzunmuhalefet.com/stream/610b517c-1882-4c9e-a1e5-4272601eefd2.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/6ad58bbd-0cf3-4fdb-9af7-16704b101eab.png" group-title="Belgesel",blutv Belgesel
 https://d1grcygon2cylc.cloudfront.net/out/v1/39e430e8c1ce4a8d8176c7be8c743529/index_3.m3u8
+#EXTINF:0 type="stream" group="Belgesel" channelId="-1" logo="https://i.imgur.com/0J3pR6O.png", CRI Türk Belgesel
+https://www.guventechnology.com:19360/criturktvbelgesel/criturktvbelgesel.m3u8
+#EXTINF:0 type="stream" group="Belgesel" channelId="-1" logo="https://i.imgur.com/FYP5txe.png", NHT TV
+http://nhttv22.nhttv.com:29020/nhttv/nhttv/playlist.m3u8
 #EXTINF:-1 group-title="Belgesel" tvg-logo="https://assets.uzunmuhalefet.com/logos/0a4992bf-7c3d-41ae-aa0d-e44ecb1ac0cb.png" tvg-url="https://www.ciftcitv.com/",Çiftçi TV
 https://streams.uzunmuhalefet.com/stream/e71083cf-eb54-408b-8aba-d66690520801.m3u8
 #EXTINF:-1 group-title="Belgesel" tvg-logo="https://assets.uzunmuhalefet.com/logos/592f509e-2e57-445f-833c-e3388ae88120.png" tvg-url="https://koytv.tv/",Köy TV
