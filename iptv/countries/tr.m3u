@@ -54,7 +54,7 @@ https://streams.uzunmuhalefet.com/stream/edba8b19-4745-4c5c-a235-b23a06d83eda.m3
 #EXTINF:-1 group-title="Haber" tvg-logo="https://assets.uzunmuhalefet.com/logos/1db4d8d5-bd45-400e-92c4-4739e1f7c241.png" tvg-url="https://www.akittv.com.tr/",Akit TV
 http://cdn.vizitv.workers.dev/56.m3u8
 #EXTINF:-1 group-title="Haber" tvg-logo="https://assets.uzunmuhalefet.com/logos/9b729d49-2367-415b-a5e4-35c47ffaf59f.png" tvg-url="https://www.benguturk.com/",Bengütürk TV
-https://streams.uzunmuhalefet.com/stream/f67de356-69de-4356-8987-e98fa9b1cb17.m3u8
+https://ensonhaber-live.ercdn.net/benguturk/benguturk.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/1fe8d10c-f8ae-4e8f-8f40-e1e1ead0f92e.png" group-title="Haber",ARTI TV
 http://176.10.117.18:8000/play/a002/index.m3u8
 #EXTINF:-1 group-title="Haber" tvg-logo="http://assets.tvcdn.net/0cebab34-cb48-48e3-81e0-a9a91a604b1e.png" tvg-url="https://live.yoltv.com/",Yol TV
