@@ -565,6 +565,10 @@ https://streams.uzunmuhalefet.com/stream/7918c3a5-e8d2-4e9f-9a04-dfa46cf92769.m3
 https://streams.uzunmuhalefet.com/stream/e52acdf9-6fbe-48b5-a962-b89b436e377d.m3u8
 #EXTINF:-1 group-title="Dini" tvg-logo="https://assets.uzunmuhalefet.com/logos/f742c0f0-5a11-4437-a23e-e23892cb5b49.png" tvg-url="https://www.huzurpinari.com/",Huzur Pınarı
 https://streams.uzunmuhalefet.com/stream/2ac01db4-b87f-4b34-bc31-f59fa0f155a2.m3u8
+#EXTINF:0 type="stream" group="Dini" channelId="-1" logo="https://i.imgur.com/fDeYe7f.png", Tespitler TV
+http://snmtv.ozelip.com:2052/tesbitlertv/tesbitlertv/playlist.m3u8
+#EXTINF:0 type="stream" group="Dini" channelId="-1" logo="https://i.imgur.com/bnEolcN.png", Bursa İl Müftülüğü
+https://5be5d840359c6.streamlock.net/pm-medya/pm-medya/chunklist_w1329339153.m3u8
 #EXTINF:1 tvg-id="QuranTV.sa" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/081083b4-62b6-43b1-b9c2-10035c60ad90.png" group-title="Dini",Al Quran Al Kareem TV
 http://m.live.net.sa:1935/live/quran/playlist.m3u8
 #EXTINF:1 tvg-id="SunnaTV.sa" tvg-language="Turkish" tvg-logo="https://wmxznm9feqh3.merlincdn.net/assets/a03f8315-fa11-4d3c-b73b-cf5fcac6ea8c.png" group-title="Dini",Al Sunnah Al Nabawiyah
