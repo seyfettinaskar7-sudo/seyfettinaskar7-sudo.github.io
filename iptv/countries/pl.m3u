@@ -321,6 +321,10 @@ http://91.226.51.126:8000/udp/239.100.10.163:2234
 http://95.211.250.54:80/TV4/mono.m3u8
 #EXTINF:1 tvg-id="TV6.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/4k7aPwS.png" group-title="Poland",TV6
 http://95.211.250.54:80/TV6/mono.m3u8
+#EXTINF:-1,TVC
+http://81.15.109.89:8001/play/TVC
+#EXTINF:-1,TVC SUPER
+http://81.15.109.89:8001/play/TVCSuper
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/D6x9Y4I.png" group-title="Poland",TV Jaslo
 https://cdn2.aztv.pl/hls/live_tvjaslo.stream.m3u8
 #EXTINF:1 tvg-id="TVOkazje.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/MQq0Y6I.png" group-title="Poland",TV Okazje HD
