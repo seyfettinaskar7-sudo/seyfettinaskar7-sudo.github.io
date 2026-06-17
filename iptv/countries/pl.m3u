@@ -147,8 +147,10 @@ http://95.211.250.54:80/FILMBOX_ARTHOUSE/mono.m3u8
 http://91.226.51.126:8000/udp/239.100.10.50:2234
 #EXTINF:1 tvg-id="FilmBoxFamily.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/LQEO9By.png" group-title="Poland",FILMBOX_FAMILY
 http://95.211.250.54:80/FILMBOX_FAMILY/mono.m3u8
+#EXTINF:-1,Film Cafe
+http://81.15.109.89:8001/play/FilmCafe
 #EXTINF:1 tvg-id="FokusTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/3ZIc50I.png" group-title="Poland",Fokus TV
-http://95.211.250.54:80/FOKUS_TV/mono.m3u8
+http://91.246.72.88:8000/play/a008/index.m3u8
 #EXTINF:1 tvg-id="FoodNetworkPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/TMYnWj4.png" group-title="Poland",Food Network Polska
 http://95.211.250.54:80/FOOD_NETWORK/mono.m3u8
 #EXTINF:1 tvg-id="FoxPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/cItGaUi.png" group-title="Poland",Fox Polska
@@ -156,7 +158,7 @@ http://95.211.250.54:80/FOX/mono.m3u8
 #EXTINF:1 tvg-id="FoxComedyPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/ZFsgg9A.png" group-title="Poland",Fox Comedy Polska
 http://91.226.51.126:8000/udp/239.100.10.37:2234
 #EXTINF:1 tvg-id="HBOPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/mBDhEoI.png" group-title="Poland",HBO Polska
-http://95.211.250.54:80/HBO/mono.m3u8
+http://81.15.109.89:8001/play/HBO
 #EXTINF:1 tvg-id="HGTVPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/KKYPCM1.png" group-title="Poland",HGTV Polska
 http://95.211.250.54:80/HGTV/mono.m3u8
 #EXTINF:1 tvg-id="HistoryPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/2A5tAjx.png" group-title="Poland",History Polska
