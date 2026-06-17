@@ -408,7 +408,7 @@ http://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpwroclaw
 #EXTINF:1 tvg-id="TVPABC.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/u9JZ52W.png" group-title="Poland",TVP ABC
 http://91.226.51.126:8000/udp/239.100.10.106:2234
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/7sma61l.png" group-title="Poland",TVP Dokument
-http://91.226.51.126:8000/udp/239.100.10.192:2234
+https://tvpi.travny.workers.dev/tvpdokument.m3u8
 #EXTINF:1 tvg-id="TVPHistoria.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/zpNZiqo.png" group-title="Poland",TVP Historia
 http://95.211.250.54:80/TVP_HISTORIA/mono.m3u8
 #EXTINF:1 tvg-id="TVPInfo.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/jR12A8A.png" group-title="Poland",TVP Info
