@@ -224,7 +224,7 @@ http://91.226.51.126:8000/udp/239.100.10.4:2234
 #EXTINF:1 tvg-id="Polsat2.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/ZZ7HAdp.png" group-title="Poland",POLSAT 2 HD
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6084/index.m3u8
 #EXTINF:1 tvg-id="PolsatCafe.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/1bHFL4T.png" group-title="Poland",Polsat Cafe HD
-http://95.211.250.54:80/POLSAT_CAFE/mono.m3u8
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6085/index.m3u8
 #EXTINF:1 tvg-id="PolsatDoku.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/isgbiVm.png" group-title="Poland",Polsat Doku HD
 http://95.211.250.54:80/POLSAT_DOKU/mono.m3u8
 #EXTINF:1 tvg-id="PolsatFilm.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/XIt7dWk.png" group-title="Poland",Polsat Film HD
