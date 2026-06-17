@@ -267,6 +267,8 @@ http://81.15.109.89:8001/play/PolsatViasatNature
 http://81.15.109.89:8001/play/PolsatX
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/XO23bOX.png" group-title="Poland",Polskie Radio 24
 https://stream15.polskieradio.pl/pr24_video/video_pr24.stream/chunklist_w1012403700.m3u8
+#EXTINF:-1,Private HD
+http://81.15.109.89:8001/play/Private
 #EXTINF:1 tvg-id="PowerTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/mxSIcZm.png" group-title="Poland",PowerTV HD
 http://81.15.109.89:8001/play/PowerTV
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/8CN4U7N.png" group-title="Poland",Radio Czworka
