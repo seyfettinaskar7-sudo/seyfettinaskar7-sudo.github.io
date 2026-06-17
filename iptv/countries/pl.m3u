@@ -208,7 +208,9 @@ http://91.226.51.126:8000/udp/239.100.10.87:2234
 #EXTINF:1 tvg-id="NSportPlus.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/QWvj5Fw.png" group-title="Poland",nSport+
 http://195.206.253.157:8201/nsport
 #EXTINF:1 tvg-id="NutaTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/8DtjWKp.png" group-title="Poland",Nuta.TV HD
-http://91.226.51.126:8000/udp/239.100.10.137:2234
+http://81.15.109.89:8001/play/NutaTV
+#EXTINF:1 tvg-id="NutaTV.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",Nuta Gold HD
+http://81.15.109.89:8001/play/NutaGold
 #EXTINF:1 tvg-id="ParamountChannelPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/HbNJStV.png" group-title="Poland",Paramount Channel Polska
 http://91.226.51.126:8000/udp/239.100.10.48:2234
 #EXTINF:1 tvg-id="PlanetePlusPolska.fr" tvg-language="Polish" tvg-logo="https://i.imgur.com/W9HYNYh.png" group-title="Poland",Planete+ Polska
