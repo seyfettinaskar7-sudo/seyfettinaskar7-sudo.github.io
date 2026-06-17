@@ -43,6 +43,10 @@ http://81.15.109.89:8001/play/BBCLifestyle
 http://91.246.72.88:8000/play/a01w/index.m3u8
 #EXTINF:1 tvg-id="Biznes24.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/0h6XY7i.png" group-title="Poland",Biznes24
 http://91.226.51.126:8000/udp/239.100.10.19:2234
+#EXTINF:-1,Blue Hustler
+http://81.15.109.89:8001/play/BlueHustler
+#EXTINF:-1,Brazzers TV
+http://81.15.109.89:8001/play/BrazzersTV
 #EXTINF:1 tvg-id="BoomerangPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/wZVcTlN.png" group-title="Poland",Boomerang Polska
 http://95.211.250.54:80/BOOMERANG/mono.m3u8
 #EXTINF:-1 tvg-id="BTB.pl@SD",BTB HD (1080p)
