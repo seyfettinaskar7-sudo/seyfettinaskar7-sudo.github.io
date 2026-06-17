@@ -361,6 +361,16 @@ http://91.226.51.126:8000/udp/239.100.10.74:2234
 http://91.226.51.126:8000/udp/239.100.10.106:2234
 #EXTINF:1 tvg-id="TVP1.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/1o6q9rD.png" group-title="Poland",TVP 1
 http://91.226.51.126:8000/udp/239.100.10.1:2234
+#EXTINF:-1,TVP 1 HD Adam Daty
+http://81.15.109.89:8001/play/a02c
+#EXTINF:-1,TVP 1 HD Czarek Seka
+http://81.15.109.89:8001/play/a02k
+#EXTINF:-1,TVP 1 HD Sebo Seka 8889
+http://81.15.109.89:8001/play/a02m
+#EXTINF:-1,TVP 1 HD Sebo Seka 9999
+http://81.15.109.89:8001/play/a02f
+#EXTINF:-1,TVP 1 HD Tomek Seka
+http://81.15.109.89:8001/play/a02i
 #EXTINF:1 tvg-id="TVP2.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/xaoUAoT.png" group-title="Poland",TVP 2
 http://95.211.250.54:80/TVP_2_HD/mono.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/jJ1cyxP.png" group-title="Poland",TVP 3 Białystok
