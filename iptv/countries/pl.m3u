@@ -132,7 +132,7 @@ http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/19172/index.m3u8
 #EXTINF:1 tvg-id="EskaTVExtra.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/fPUBM4d.png" group-title="Poland",Eska TV Extra
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/19173/index.m3u8
 #EXTINF:1 tvg-id="ExtremeSportsChannelPolska.nl" tvg-language="Polish" tvg-logo="https://i.imgur.com/isIeZjK.png" group-title="Poland",Extreme Sports Channel Polska
-http://95.211.250.54:80/EXTREME_SPORTS/mono.m3u8
+http://81.15.109.89:8001/play/ExtremeSports
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/hJAoLIq.png" group-title="Poland",Ezo TV
 http://live.ezotv.pl:1935/live/EZOTV/playlist.m3u8
 #EXTINF:1 tvg-id="FightBoxHD.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/vX3T59t.png" group-title="Poland",FIGHTBOX HD
