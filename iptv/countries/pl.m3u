@@ -412,7 +412,7 @@ https://tvpi.travny.workers.dev/tvpdokument.m3u8
 #EXTINF:1 tvg-id="TVPHistoria.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/zpNZiqo.png" group-title="Poland",TVP Historia
 http://95.211.250.54:80/TVP_HISTORIA/mono.m3u8
 #EXTINF:1 tvg-id="TVPInfo.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/jR12A8A.png" group-title="Poland",TVP Info
-http://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpinfo
+https://lowa8026-cmyk.github.io/tvpvod/399699.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/CaRiRPM.png" group-title="Poland",TVP Kobieta
 http://91.226.51.126:8000/udp/239.100.10.191:2234
 #EXTINF:1 tvg-id="TVPKultura.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/Ymo1V3r.png" group-title="Poland",TVP Kultura
