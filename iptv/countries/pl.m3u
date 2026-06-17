@@ -201,6 +201,8 @@ http://91.226.51.126:8000/udp/239.100.10.113:2234
 http://91.226.51.126:8000/udp/239.100.10.112:2234
 #EXTINF:-1,NOVELAS+
 http://81.15.109.89:8001/play/Novelas
+#EXTINF:-1,Novela Tv
+http://81.15.109.89:8001/play/NovelaTV
 #EXTINF:1 tvg-id="NowaTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/gfVlgJ0.png" group-title="Poland",Nowa TV
 http://91.226.51.126:8000/udp/239.100.10.87:2234
 #EXTINF:1 tvg-id="NSportPlus.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/QWvj5Fw.png" group-title="Poland",nSport+
