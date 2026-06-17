@@ -250,7 +250,7 @@ http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7296/index.m3u8
 #EXTINF:1 tvg-id="PolsatSport2.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/zNqN5Hg.png" group-title="Poland",Polsat Sport 2 HD
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7310/index.m3u8
 #EXTINF:1 tvg-id="PolsatSportFight.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/jJ1tY3S.png" group-title="Poland",Polsat Sport Fight HD
-http://91.226.51.126:8000/udp/239.100.10.101:2234
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7311/index.m3u8
 #EXTINF:1 tvg-id="PolsatSport3.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/qHJrn4Y.png" group-title="Poland",Polsat Sport 3 HD
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7303/index.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/XO23bOX.png" group-title="Poland",Polskie Radio 24
