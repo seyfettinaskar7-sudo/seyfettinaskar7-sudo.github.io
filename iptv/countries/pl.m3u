@@ -238,7 +238,7 @@ http://91.226.51.126:8000/udp/239.100.10.131:2234
 #EXTINF:1 tvg-id="PolsatNews.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/QyIVi0K.png" group-title="Poland",Polsat News HD
 http://91.226.51.126:8000/udp/239.100.10.26:2234
 #EXTINF:1 tvg-id="PolsatNews2.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/fSjRPuA.png" group-title="Poland",Polsat News 2
-http://91.226.51.126:8000/udp/239.100.10.27:2234
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7297/index.m3u8
 #EXTINF:1 tvg-id="PolsatPlay.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/kRIkyan.png" group-title="Poland",Polsat Play HD
 http://91.226.51.126:8000/udp/239.100.10.82:2234
 #EXTINF:1 tvg-id="PolsatRodzina.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/9JRDnC4.png" group-title="Poland",Polsat Rodzina HD
