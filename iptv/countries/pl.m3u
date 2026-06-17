@@ -74,7 +74,9 @@ http://95.211.250.54:80/CANAL+_SPORT_2/tracks-v1a1/mono.m3u8
 #EXTINF:1 tvg-id="CanalPlusSport3Polska.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/ZKxyYDT.png" group-title="Poland",CANAL+ SPORT 3 HD
 http://95.211.250.54:80/CANAL+_SPORT_3/tracks-v1a1/mono.m3u8
 #EXTINF:1 tvg-id="CanalPlusSport4Polska.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/wIOkx5d.png" group-title="Poland",CANAL+ SPORT 4 HD
-http://95.211.250.54:80/CANAL+_SPORT_4/tracks-v1a1/mono.m3u8
+http://81.15.109.89:8001/play/CanalSport4
+#EXTINF:1 tvg-id="CanalPlusSport5Polska.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",CANAL+ SPORT 5 HD
+http://81.15.109.89:8001/play/CanalSport5
 #EXTINF:1 tvg-id="CartoonNetworkPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/QcGQ2Ub.png" group-title="Poland",Cartoon Network Polska
 http://95.211.250.54:80/CARTOON_NETWORK/mono.m3u8
 #EXTINF:1 tvg-id="CBSRealityPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/H5AEEVH.png" group-title="Poland",CBS Reality Polska
