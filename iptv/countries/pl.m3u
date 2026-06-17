@@ -253,6 +253,10 @@ http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7310/index.m3u8
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7311/index.m3u8
 #EXTINF:1 tvg-id="PolsatSport3.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/qHJrn4Y.png" group-title="Poland",Polsat Sport 3 HD
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7303/index.m3u8
+#EXTINF:1 tvg-id="PolsatSportPremium1.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",Polsat Sport Premium 1 HD
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7304/index.m3u8
+#EXTINF:1 tvg-id="PolsatSportPremium2.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",Polsat Sport Premium 2 HD
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7305/index.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/XO23bOX.png" group-title="Poland",Polskie Radio 24
 https://stream15.polskieradio.pl/pr24_video/video_pr24.stream/chunklist_w1012403700.m3u8
 #EXTINF:1 tvg-id="PowerTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/mxSIcZm.png" group-title="Poland",PowerTV HD
