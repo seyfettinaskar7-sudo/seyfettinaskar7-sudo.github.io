@@ -106,7 +106,7 @@ http://81.15.109.89:8001/play/DisneyJunior
 #EXTINF:1 tvg-id="DisneyXDPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/fIzfRig.png" group-title="Poland",Disney XD Polska
 http://81.15.109.89:8001/play/DisneyXD
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/Wu27YDd.png" group-title="Poland",Dla Ciebie TV
-http://94.246.128.53:1935/tv/dlaCiebieTv/playlist.m3u8
+http://81.15.109.89:8001/play/DlaCiebieTV
 #EXTINF:1 tvg-id="DTXPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/QjoIWiV.png" group-title="Poland",DTX Polska
 http://95.211.250.54:80/DTX/mono.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/06MMg3z.png" group-title="Poland",E HD
