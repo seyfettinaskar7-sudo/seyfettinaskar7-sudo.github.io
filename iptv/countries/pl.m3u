@@ -126,7 +126,7 @@ http://95.211.250.54:80/ELEVEN_EXTRA/tracks-v1a1/mono.m3u8
 #EXTINF:1 tvg-id="ElevenSports4Polska.uk" tvg-language="Polish" tvg-logo="https://i.imgur.com/l5r0KpF.png" group-title="Poland",Eleven Sports 4
 http://95.211.250.54:80/ELEVEN4/tracks-v1a1/mono.m3u8
 #EXTINF:1 tvg-id="EskaTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/60qswoE.png" group-title="Poland",Eska
-http://91.226.51.126:8000/udp/239.100.10.139:2234
+http://91.246.72.88:8000/play/a002/index.m3u8
 #EXTINF:1 tvg-id="EskaRockTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/dwSr1np.png" group-title="Poland",Eska Rock TV
 http://91.226.51.126:8000/udp/239.100.10.142:2234
 #EXTINF:1 tvg-id="EskaTVExtra.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/fPUBM4d.png" group-title="Poland",Eska TV Extra
