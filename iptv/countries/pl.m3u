@@ -216,7 +216,7 @@ http://91.226.51.126:8000/udp/239.100.10.48:2234
 #EXTINF:1 tvg-id="PlanetePlusPolska.fr" tvg-language="Polish" tvg-logo="https://i.imgur.com/W9HYNYh.png" group-title="Poland",Planete+ Polska
 http://91.226.51.126:8000/udp/239.100.10.57:2234
 #EXTINF:1 tvg-id="PoloTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/NctPaGu.png" group-title="Poland",Polo TV
-http://195.206.253.157:14000/polotv
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/19170/index.m3u8
 #EXTINF:1 tvg-id="Polonia1.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/d6cjizd.png" group-title="Poland",Polonia1 SD
 http://95.211.250.54:80/POLONIA_1/mono.m3u8
 #EXTINF:1 tvg-id="Polsat.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/jPQpXRe.png" group-title="Poland",Polsat
