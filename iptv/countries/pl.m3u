@@ -137,6 +137,8 @@ http://81.15.109.89:8001/play/ExtremeSports
 http://live.ezotv.pl:1935/live/EZOTV/playlist.m3u8
 #EXTINF:1 tvg-id="FightBoxHD.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/vX3T59t.png" group-title="Poland",FIGHTBOX HD
 http://95.211.250.54:80/FIGHTBOX/mono.m3u8
+#EXTINF:-1,Fightklub HD
+http://81.15.109.89:8001/play/Fightklub
 #EXTINF:1 tvg-id="FilmBoxAction.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/sNc4NCh.png" group-title="Poland",Filmbox Action
 http://91.226.51.126:8000/udp/239.100.10.51:2234
 #EXTINF:1 tvg-id="FilmBoxArthouseWorldwide.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/LHe5bHE.png" group-title="Poland",FILMBOX_ARTHOUSE
