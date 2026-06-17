@@ -360,7 +360,7 @@ http://91.226.51.126:8000/udp/239.100.10.74:2234
 #EXTINF:1 tvg-id="TVPABC.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/Zt3uQbC.png" group-title="Poland",TVP ABC
 http://91.226.51.126:8000/udp/239.100.10.106:2234
 #EXTINF:1 tvg-id="TVP1.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/1o6q9rD.png" group-title="Poland",TVP 1
-http://91.226.51.126:8000/udp/239.100.10.1:2234
+https://ec06-krk3.cache.orange.pl/dai4/org1/vb/104/tvp1hd/index.m3u8
 #EXTINF:-1,TVP 1 HD Adam Daty
 http://81.15.109.89:8001/play/a02c
 #EXTINF:-1,TVP 1 HD Czarek Seka
