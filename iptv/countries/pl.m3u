@@ -294,7 +294,7 @@ http://91.226.51.126:8000/udp/239.100.10.91:2234
 #EXTINF:1 tvg-id="TBNPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/T3paiIE.png" group-title="Poland",TBN Polska
 http://91.226.51.126:8000/udp/239.100.10.71:2234
 #EXTINF:1 tvg-id="Tele5.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/tPBW6NA.png" group-title="Poland",Tele 5
-http://91.226.51.126:8000/udp/239.100.10.15:2234
+http://81.15.109.89:8001/play/Tele5
 #EXTINF:1 tvg-id="TeletoonPlusHDPolska.fr" tvg-language="Polish" tvg-logo="https://i.imgur.com/9WfebyZ.png" group-title="Poland",TELETOON+ Polska
 http://95.211.250.54:80/TELETOON+/mono.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/OtUtWL4.png" group-title="Poland",Telewizja Dami Radom
