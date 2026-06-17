@@ -296,7 +296,7 @@ http://91.226.51.126:8000/udp/239.100.10.71:2234
 #EXTINF:1 tvg-id="Tele5.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/tPBW6NA.png" group-title="Poland",Tele 5
 http://81.15.109.89:8001/play/Tele5
 #EXTINF:1 tvg-id="TeletoonPlusHDPolska.fr" tvg-language="Polish" tvg-logo="https://i.imgur.com/9WfebyZ.png" group-title="Poland",TELETOON+ Polska
-http://95.211.250.54:80/TELETOON+/mono.m3u8
+http://81.15.109.89:8001/play/Teletoon
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/OtUtWL4.png" group-title="Poland",Telewizja Dami Radom
 https://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCL1u3cY7_nPjbZmKljCy_Cw/live
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/0gZupbA.png" group-title="Poland",Telewizja Kujawy
