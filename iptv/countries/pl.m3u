@@ -114,9 +114,9 @@ http://95.211.250.54:80/E/mono.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/NFM0zOq.png" group-title="Poland",Echo24
 https://live-insysgo.cf.insyscd.net/echo24.720.smil/manifest.mpd
 #EXTINF:1 tvg-id="Eurosport1Polska.fr" tvg-language="Polish" tvg-logo="https://i.imgur.com/Z00sdKe.png" group-title="Poland",EUROSPORT_1 HD
-http://95.211.250.54:80/EUROSPORT_1/mono.m3u8
+http://81.15.109.89:8001/play/Eurosport1Poland
 #EXTINF:1 tvg-id="Eurosport2Polska.fr" tvg-language="Polish" tvg-logo="https://i.imgur.com/xkz38Je.png" group-title="Poland",EUROSPORT_2 HD
-http://95.211.250.54:80/EUROSPORT_2/mono.m3u8
+http://81.15.109.89:8001/play/Eurosport2Poland
 #EXTINF:1 tvg-id="ElevenSports1Polska.uk" tvg-language="Polish" tvg-logo="https://i.imgur.com/22s1HVu.png" group-title="Poland",Eleven Sports 1
 http://95.211.250.54:80/ELEVEN/tracks-v1a1/mono.m3u8
 #EXTINF:1 tvg-id="ElevenSports2Polska.uk" tvg-language="Polish" tvg-logo="https://i.imgur.com/YVAstwW.png" group-title="Poland",Eleven Sports 2
