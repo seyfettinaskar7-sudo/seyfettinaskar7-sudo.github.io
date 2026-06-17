@@ -8,7 +8,7 @@ http://91.226.51.126:8000/udp/239.100.10.129:2234
 #EXTINF:1 tvg-id="4FunKids.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/TsoLYko.png" group-title="Poland",4Fun Kids
 http://91.226.51.126:8000/udp/239.100.10.128:2234
 #EXTINF:1 tvg-id="Adventure.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/OJg0SvC.png" group-title="Poland",AdventureTV
-http://91.226.51.126:8000/udp/239.100.10.86:2234
+http://81.15.109.89:8001/play/Adventure
 #EXTINF:1 tvg-id="AleKinoPlus.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/9qLtHhf.png" group-title="Poland",Ale kino+ 
 http://91.226.51.126:8000/udp/239.100.10.35:2234
 #EXTINF:1 tvg-id="AnimalPlanetPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/P2wzrD9.png" group-title="Poland",Animal Planet Polska
