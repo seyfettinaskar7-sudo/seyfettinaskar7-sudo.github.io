@@ -244,7 +244,7 @@ http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6087/index.m3u8
 #EXTINF:1 tvg-id="PolsatRodzina.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/9JRDnC4.png" group-title="Poland",Polsat Rodzina HD
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7301/index.m3u8
 #EXTINF:1 tvg-id="PolsatSeriale.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/yxQ6DSk.png" group-title="Poland",Polsat Seriale HD
-http://91.226.51.126:8000/udp/239.100.10.40:2234
+http://81.15.109.89:8001/play/PolsatSeriale
 #EXTINF:1 tvg-id="PolsatSport1.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/dH8apOf.png" group-title="Poland",Polsat Sport 1 HD
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7296/index.m3u8
 #EXTINF:1 tvg-id="PolsatSport2.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/zNqN5Hg.png" group-title="Poland",Polsat Sport 2 HD
