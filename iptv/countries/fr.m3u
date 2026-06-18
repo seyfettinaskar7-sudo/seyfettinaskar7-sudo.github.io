@@ -18,7 +18,7 @@ http://176.65.146.100:8047/play/a07h/index.m3u8
 #EXTINF:-1 tvg-id="W9.fr@SD" tvg-logo="https://i.imgur.com/reYeMuE.png" group-title="Entertainment",W9
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8
 #EXTINF:-1 tvg-id="TFX.fr@SD" tvg-logo="https://i.imgur.com/d91GcVf.png" group-title="Undefined",TFX (1080p) [Geo-Blocked]
-https://viamotionhsi.netplus.ch/live/eds/nt1/browser-HLS8/nt1.m3u8
+http://145.239.5.177/315/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TMC.fr@SD" tvg-logo="https://fr.wikipedia.org/wiki/Fichier:TMC_logo_2016.svg" group-title="Undefined",TMC (1080p) [Geo-Blocked]
 https://sv1.data-stream.top/cd6747a04a15dead136fece0ea3dd3019f5c3614ea715d88c081ed536dba3e27/hls/tmc.m3u8
 #EXTINF:-1 tvg-id="Gulli.fr@SD" tvg-logo="https://i.imgur.com/kqYssbW.png" group-title="Kids",Gulli (720p) [Geo-Blocked]
