@@ -182,7 +182,7 @@ http://91.226.51.126:8000/udp/239.100.10.89:2234
 #EXTINF:-1,Mezzo TV
 http://81.15.109.89:8001/play/MezzoTV
 #EXTINF:1 tvg-id="MiniMiniPlus.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/2RZmxIA.png" group-title="Poland",MiniMini+ HD
-http://95.211.250.54:80/MINIMINI/mono.m3u8
+http://line.tvdsz.cc:80/play/live.php?mac=00:1A:79:A3:C0:BF&stream=227373&extension=m3u8
 #EXTINF:1 tvg-id="MTVPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/p083ONZ.png" group-title="Poland",MTV Polska
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7294/index.m3u8
 #EXTINF:-1,MTV 90s
