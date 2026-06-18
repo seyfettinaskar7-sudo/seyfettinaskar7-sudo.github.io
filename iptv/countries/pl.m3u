@@ -450,6 +450,6 @@ http://91.226.51.126:8000/udp/239.100.10.24:2234
 #EXTINF:1 tvg-id="WPolscePL.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/p11DxJl.png" group-title="Poland",wPolsce.pl HD
 http://91.226.51.126:8000/udp/239.100.10.23:2234
 #EXTINF:1 tvg-id="Superstacja.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/jAXC14l.png" group-title="Poland",Wydarzenia 24
-http://95.211.250.54:80/SUPERSTACJA_TV/mono.m3u8
+http://91.246.72.88:8000/play/a009/index.m3u8
 #EXTINF:1 tvg-id="ZoomTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/Bc8kw7g.png" group-title="Poland",Zoom TV
 http://91.226.51.126:8000/udp/239.100.10.21:2234
