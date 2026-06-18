@@ -451,5 +451,7 @@ http://91.226.51.126:8000/udp/239.100.10.24:2234
 http://91.226.51.126:8000/udp/239.100.10.23:2234
 #EXTINF:1 tvg-id="Superstacja.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/jAXC14l.png" group-title="Poland",Wydarzenia 24
 http://91.246.72.88:8000/play/a009/index.m3u8
+#EXTINF:-1,Zero
+http://81.15.109.89:8001/play/zero
 #EXTINF:1 tvg-id="ZoomTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/Bc8kw7g.png" group-title="Poland",Zoom TV
 http://91.226.51.126:8000/udp/239.100.10.21:2234
