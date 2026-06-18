@@ -410,7 +410,7 @@ https://lowa8026-cmyk.github.io/tvpvod/399699.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/CaRiRPM.png" group-title="Poland",TVP Kobieta
 http://91.246.72.88:8000/play/a01v/index.m3u8
 #EXTINF:1 tvg-id="TVPKultura.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/Ymo1V3r.png" group-title="Poland",TVP Kultura
-http://91.226.51.126:8000/udp/239.100.10.55:2234
+http://91.246.72.88:8000/play/a00n/index.m3u8
 #EXTINF:1 tvg-id="TVPPolonia.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/TJeqigW.png" group-title="Poland",TVP Polonia
 https://lowa8026-cmyk.github.io/tvpvod/399723.m3u8
 #EXTINF:1 tvg-id="TVPRozrywka.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/hNx0JEm.png" group-title="Poland",TVP Rozrywka
