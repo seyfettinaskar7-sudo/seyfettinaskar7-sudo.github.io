@@ -77,3 +77,5 @@ https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NORMANDIE/index.m3u8?end=END&sta
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TECHANDCO/index.m3u8?end=END&start=LIVE
 #EXTINF:-1 tvg-id="BFMVar.fr@SD" tvg-logo="https://i.imgur.com/vp1oVj3.png" group-title="News",BFM Toulon Var (1080p)
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TOULONVAR/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 tvg-id="AfterFootTV.fr" tvg-logo="https://freebox.cdn.scw.iliad.fr/large_logo_afterfoot_TV_fondblanc_83130699dd.png" group-title="Sport Thématique",AFTER FOOT TV
+https://d278gam2ft6q08.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0ic4hqa502el6/AfterfootTV_FR.m3u8
