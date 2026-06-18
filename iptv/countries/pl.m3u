@@ -353,8 +353,6 @@ http://91.226.51.126:8000/udp/239.100.10.47:2234
 http://91.226.51.126:8000/udp/239.100.10.75:2234
 #EXTINF:1 tvg-id="TVNTurbo.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/Du701RP.png" group-title="Poland",TVN Turbo HD
 http://91.226.51.126:8000/udp/239.100.10.74:2234
-#EXTINF:1 tvg-id="TVPABC.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/Zt3uQbC.png" group-title="Poland",TVP ABC
-http://91.246.72.88:8000/play/a00r/index.m3u8
 #EXTINF:1 tvg-id="TVP1.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/1o6q9rD.png" group-title="Poland",TVP 1
 https://ec06-krk3.cache.orange.pl/dai4/org1/vb/104/tvp1hd/index.m3u8
 #EXTINF:-1,TVP 1 HD Adam Daty
@@ -402,11 +400,11 @@ http://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpwarszawa
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/9nrIgx6.png" group-title="Poland",TVP 3 Wrocław
 http://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpwroclaw
 #EXTINF:1 tvg-id="TVPABC.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/u9JZ52W.png" group-title="Poland",TVP ABC
-http://91.226.51.126:8000/udp/239.100.10.106:2234
+http://91.246.72.88:8000/play/a00r/index.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/7sma61l.png" group-title="Poland",TVP Dokument
 https://tvpi.travny.workers.dev/tvpdokument.m3u8
 #EXTINF:1 tvg-id="TVPHistoria.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/zpNZiqo.png" group-title="Poland",TVP Historia
-http://95.211.250.54:80/TVP_HISTORIA/mono.m3u8
+https://tvpi.travny.workers.dev/tvphistoria.m3u8
 #EXTINF:1 tvg-id="TVPInfo.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/jR12A8A.png" group-title="Poland",TVP Info
 https://lowa8026-cmyk.github.io/tvpvod/399699.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/CaRiRPM.png" group-title="Poland",TVP Kobieta
