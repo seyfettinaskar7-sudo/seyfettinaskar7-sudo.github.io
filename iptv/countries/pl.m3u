@@ -330,7 +330,7 @@ https://stream.elzappero.net/tvglubczyce.m3u8
 #EXTINF:1 tvg-id="TVPuls.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/m0WlQCj.png" group-title="Poland",TV Puls
 http://91.246.72.88:8000/play/a00e/index.m3u8
 #EXTINF:1 tvg-id="Puls2.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/6yjSmnP.png" group-title="Poland",TV Puls 2
-http://195.206.253.157:13900/religiatv
+https://vs2126.vcdn.biz/cacd1c6a99ee154b5c7d78a52d17e27b_megogo/live/hls/b/700_2490_4000/u_sid/0/o/157766541/rsid/2d20baa0-758f-43c1-ac66-0df23e9ae3a2/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/37.109.162.54*asn/u_srvc/81255/u_did/web_XkXatVzQiYuxwYoGXyXJfjfePaDX3Jzq/type.live/chunklist-sid775857816421306678-b4000000.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/WLJaT6j.png" group-title="Poland",TV Regionalna
 https://tvreg.klemit.net/regionalna/stream/index.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/vElvKrk.png" group-title="Poland",TV Relax
