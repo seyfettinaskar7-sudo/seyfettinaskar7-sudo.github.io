@@ -259,10 +259,6 @@ http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7303/index.m3u8
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7304/index.m3u8
 #EXTINF:1 tvg-id="PolsatSportPremium2.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",Polsat Sport Premium 2 HD
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7305/index.m3u8
-#EXTINF:-1,Polsat Viasat Explore HD
-http://81.15.109.89:8001/play/PolsatViasatExplore
-#EXTINF:-1,Polsat Viasat Nature HD
-http://81.15.109.89:8001/play/PolsatViasatNature
 #EXTINF:-1,Polsat X HD
 http://81.15.109.89:8001/play/PolsatX
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/XO23bOX.png" group-title="Poland",Polskie Radio 24
@@ -432,11 +428,11 @@ http://gargoyle.tomkow.pl/hls/tvt.m3u8
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/UoTX1px.png" group-title="Poland",Twoja TV
 http://94.246.169.19/ttv_hls/live_720p/index.m3u8
 #EXTINF:1 tvg-id="ViasatExplorePolsat.se" tvg-language="Polish" tvg-logo="https://i.imgur.com/qHJrn4Y.png" group-title="Poland",Viasat Explore Polsat
-http://95.211.250.54:80/POLSAT_VIASAT_EXPLORE/mono.m3u8
+http://81.15.109.89:8001/play/PolsatViasatExplore
 #EXTINF:1 tvg-id="ViasatHistoryPolsat.se" tvg-language="Polish" tvg-logo="https://i.imgur.com/qHJrn4Y.png" group-title="Poland",Viasat History Polsat
-http://95.211.250.54:80/POLSAT_VIASAT_HISTORY/mono.m3u8
+http://81.15.109.89:8001/play/PolsatViasatHistory
 #EXTINF:1 tvg-id="ViasatNaturePolsat.se" tvg-language="Polish" tvg-logo="https://i.imgur.com/qHJrn4Y.png" group-title="Poland",Viasat Nature Polsat
-http://95.211.250.54:80/POLSAT_VIASAT_NATURE/mono.m3u8
+http://81.15.109.89:8001/play/PolsatViasatNature
 #EXTINF:1 tvg-id="VoxMusicTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/XANhtrh.png" group-title="Poland",VOXmusicTV
 http://91.226.51.126:8000/udp/239.100.10.132:2234
 #EXTINF:1 tvg-id="WPTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/a4mpHyi.png" group-title="Poland",WP
