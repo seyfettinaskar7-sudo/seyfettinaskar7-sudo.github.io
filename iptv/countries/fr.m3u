@@ -20,7 +20,7 @@ https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-shor
 #EXTINF:-1 tvg-id="TFX.fr@SD" tvg-logo="https://i.imgur.com/d91GcVf.png" group-title="Undefined",TFX (1080p) [Geo-Blocked]
 http://145.239.5.177/315/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TMC.fr@SD" tvg-logo="https://fr.wikipedia.org/wiki/Fichier:TMC_logo_2016.svg" group-title="Undefined",TMC (1080p) [Geo-Blocked]
-http://41.205.64.66:80/TMC/tracks-v1a1/mono.m3u8
+http://84.17.50.102/tmc/index.m3u8
 #EXTINF:-1 tvg-id="Gulli.fr@SD" tvg-logo="https://i.imgur.com/kqYssbW.png" group-title="Kids",Gulli (720p) [Geo-Blocked]
 http://41.205.64.66:80/GULLI/tracks-v1a1/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="BFMTV.fr@SD" tvg-logo="https://i.imgur.com/YJCcczD.png" group-title="News",BFM TV (1080p)
