@@ -10,7 +10,7 @@ http://91.226.51.126:8000/udp/239.100.10.128:2234
 #EXTINF:1 tvg-id="Adventure.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/OJg0SvC.png" group-title="Poland",AdventureTV
 http://81.15.109.89:8001/play/Adventure
 #EXTINF:1 tvg-id="AleKinoPlus.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/9qLtHhf.png" group-title="Poland",Ale kino+ 
-http://91.226.51.126:8000/udp/239.100.10.35:2234
+http://89.65.227.181:8001/1:0:19:379f:44c:13e:820000:0:0:0:
 #EXTINF:-1 tvg-id="AlfaTVP.pl@HD" tvg-language="Polish" tvg-logo="" group-title="Poland",Alfa TVP (1080p)
 http://91.246.72.88:8000/play/a01t/index.m3u8
 #EXTINF:1 tvg-id="AMC.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",AMC
