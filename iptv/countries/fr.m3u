@@ -129,8 +129,6 @@ http://212.8.250.27:8080/tevats/index.m3u8
 http://212.8.250.27:8080/tvbreizh/index.m3u8
 
 ##### 28 #####
-#EXTINF:1 tvg-id="" tvg-language="French" tvg-logo="https://i.imgur.com/DbYsnay.png" group-title="Regional",BFM Grand Littoral
-https://live.creacast.com/grandlittoral/smil:grandlittoral.smil/chunklist_w1251708874_b1464000.m3u8
 
 
 ##### 30 #####
@@ -140,12 +138,6 @@ http://live.alsace20.fr:1935/live/alsace20/livestream/chunklist_.m3u8
 https://streamlive2021.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCwVQAPo6tjC5w5yBBh0WEdA/live
 
 ##### 31 #####
-#EXTINF:1 tvg-id="" tvg-language="French" tvg-logo="https://i.imgur.com/Qhu0uXK.png" group-title="Regional",BFM Grand Lille
-https://live.creacast.com/grandlilletv/smil:grandlilletv.smil/chunklist_w1041165856_b1464000.m3u8
-#EXTINF:1 tvg-id="" tvg-language="French" tvg-logo="https://i.imgur.com/4uxFn2y.png" group-title="Regional",BFM Dici Alpes Du Sud
-https://bfmdicialpes-lh.akamaihd.net/i/BFMDICIAlpes_ESYTLS@67259/index_2000_av-p.m3u8?sd=10&rebase=on
-#EXTINF:1 tvg-id="" tvg-language="French" tvg-logo="https://i.imgur.com/juJV2Nz.png" group-title="Regional",BFM Dici Haute Provence
-https://bfmdiciprovence-lh.akamaihd.net/i/BFMDICIProvence_ESYTLS@327955/index_1100_av-p.m3u8?sd=10&rebase=on
 #EXTINF:1 tvg-id="" tvg-language="French" tvg-logo="https://i.imgur.com/521y2PB.png" group-title="Regional",viaOccitanie
 https://streamer01.myvideoplace.tv/streamer02/hls/MDS_VIA_PAD_301117_medium/index.m3u8
 
