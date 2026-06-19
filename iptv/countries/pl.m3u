@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/IJIBbDp.png" group-title="Poland",13 Ulica
-http://195.206.253.157:19300/13ulica
+http://89.65.227.181:8001/1:0:1:3e44:2ee0:13e:820000:0:0:0:
 #EXTINF:1 tvg-id="4FunTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/wu98yWU.png" group-title="Poland",4Fun
 https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 #EXTINF:1 tvg-id="4FunDance.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/3jNonWw.png" group-title="Poland",4Fun Dance
