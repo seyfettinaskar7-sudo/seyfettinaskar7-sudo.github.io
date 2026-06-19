@@ -344,7 +344,7 @@ http://91.246.72.88:8000/play/a00c/index.m3u8
 #EXTINF:1 tvg-id="TVN24.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/2csUNfE.png" group-title="Poland",TVN24 HD
 http://89.65.227.181:8001/1:0:1:3dd2:640:13e:820000:0:0:0:
 #EXTINF:1 tvg-id="TVN24BiS.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/gngnGrJ.png" group-title="Poland",TVN24 BiS HD
-http://95.211.250.54:80/TVN_24_BIS/mono.m3u8
+http://89.65.227.181:8001/1:0:1:12e5:2e7c:13e:820000:0:0:0:
 #EXTINF:1 tvg-id="TVN7.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/Uwe5vuw.png" group-title="Poland",TVN 7
 http://91.246.72.88:8000/play/a00f/index.m3u8
 #EXTINF:1 tvg-id="TVNFabula.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/JYHim8l.png" group-title="Poland",TVN Fabuјa HD
