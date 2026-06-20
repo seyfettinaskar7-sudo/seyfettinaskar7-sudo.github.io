@@ -245,6 +245,8 @@ http://81.15.109.89:8001/play/PolsatNewsPolityka
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6087/index.m3u8
 #EXTINF:1 tvg-id="PolsatRodzina.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/9JRDnC4.png" group-title="Poland",Polsat Rodzina HD
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7301/index.m3u8
+#EXTINF:1 tvg-id="PolsatRomans.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",Polsat Romans
+http://89.65.227.181:8001/1:0:1:1c85:1ce8:71:820000:0:0:0:
 #EXTINF:1 tvg-id="PolsatSeriale.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/yxQ6DSk.png" group-title="Poland",Polsat Seriale HD
 http://81.15.109.89:8001/play/PolsatSeriale
 #EXTINF:1 tvg-id="PolsatSport1.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/dH8apOf.png" group-title="Poland",Polsat Sport 1 HD
@@ -362,7 +364,7 @@ http://91.226.51.126:8000/udp/239.100.10.75:2234
 #EXTINF:1 tvg-id="TVNTurbo.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/Du701RP.png" group-title="Poland",TVN Turbo HD
 http://line.tvdsz.cc:80/play/live.php?mac=00:1A:79:A3:C0:BF&stream=227402&extension=m3u8
 #EXTINF:1 tvg-id="TVP1.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/1o6q9rD.png" group-title="Poland",TVP 1
-https://ec06-krk3.cache.orange.pl/dai4/org1/vb/104/tvp1hd/index.m3u8
+https://estreams.tv.nej.cz/dash/CH_TVP1_Portable.ism/playlist.mpd
 #EXTINF:-1,TVP 1 HD Adam Daty
 http://81.15.109.89:8001/play/a02c
 #EXTINF:-1,TVP 1 HD Czarek Seka
