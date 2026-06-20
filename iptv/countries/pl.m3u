@@ -197,8 +197,8 @@ http://95.211.250.54:80/NATIONAL_GEO/mono.m3u8
 http://91.226.51.126:8000/udp/239.100.10.114:2234
 #EXTINF:1 tvg-id="NickelodeonPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/n9HWnaI.png" group-title="Poland",Nickelodeon
 http://91.226.51.126:8000/udp/239.100.10.113:2234
-#EXTINF:1 tvg-id="	NicktoonsPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/z4MUIWN.png" group-title="Poland",Nicktoons
-http://91.226.51.126:8000/udp/239.100.10.112:2234
+#EXTINF:1 tvg-id="NicktoonsPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/z4MUIWN.png" group-title="Poland",Nicktoons
+http://89.65.227.181:8001/1:0:1:e:1964:13e:820000:0:0:0:
 #EXTINF:-1,NOVELAS+
 http://81.15.109.89:8001/play/Novelas
 #EXTINF:-1,Novela Tv
