@@ -358,7 +358,7 @@ http://89.65.227.181:8001/1:0:19:10ea:3e8:13e:820000:0:0:0:
 #EXTINF:1 tvg-id="TVN7.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/Uwe5vuw.png" group-title="Poland",TVN 7
 http://91.246.72.88:8000/play/a00f/index.m3u8
 #EXTINF:1 tvg-id="TVNFabula.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/JYHim8l.png" group-title="Poland",TVN Fabuјa HD
-http://91.226.51.126:8000/udp/239.100.10.47:2234
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7287/index.m3u8
 #EXTINF:1 tvg-id="TVNStyle.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/hPwtklD.png" group-title="Poland",TVN Style HD
 http://91.226.51.126:8000/udp/239.100.10.75:2234
 #EXTINF:1 tvg-id="TVNTurbo.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/Du701RP.png" group-title="Poland",TVN Turbo HD
