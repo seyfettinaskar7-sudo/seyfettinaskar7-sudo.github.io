@@ -226,7 +226,7 @@ http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6084/index.m3u8
 #EXTINF:1 tvg-id="PolsatCafe.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/1bHFL4T.png" group-title="Poland",Polsat Cafe HD
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6085/index.m3u8
 #EXTINF:1 tvg-id="PolsatDoku.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/isgbiVm.png" group-title="Poland",Polsat Doku HD
-http://95.211.250.54:80/POLSAT_DOKU/mono.m3u8
+http://89.65.227.181:8001/1:0:1:c23:1e78:71:820000:0:0:0:
 #EXTINF:1 tvg-id="PolsatFilm.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/XIt7dWk.png" group-title="Poland",Polsat Film HD
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6086/index.m3u8
 #EXTINF:1 tvg-id="PolsatGames.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/vgYf99j.png" group-title="Poland",Polsat Games HD
