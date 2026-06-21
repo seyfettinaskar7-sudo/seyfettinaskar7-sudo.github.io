@@ -265,6 +265,10 @@ http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7303/index.m3u8
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7304/index.m3u8
 #EXTINF:1 tvg-id="PolsatSportPremium2.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",Polsat Sport Premium 2 HD
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7305/index.m3u8
+#EXTINF:1 tvg-id="PolsatSportExtra3.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",Polsat Sport Extra 3 HD
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7306/index.m3u8
+#EXTINF:1 tvg-id="PolsatSportExtra4.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",Polsat Sport Extra 4 HD
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/7307/index.m3u8
 #EXTINF:-1,Polsat Sport Premium 3
 http://89.65.227.181:8001/1:0:1:70b:32c8:13e:820000:0:0:0:
 #EXTINF:-1,Polsat Sport Premium 4
