@@ -324,7 +324,7 @@ https://stream6.nadaje.com:35308/live/stream-1/chunklist_w1969766967.m3u8
 #EXTINF:1 tvg-id="TLCPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/fULZqjn.png" group-title="Poland",TLC Polska
 http://95.211.250.54:80/TLC/mono.m3u8
 #EXTINF:1 tvg-id="TNTPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/OR4929X.png" group-title="Poland",TNT Polska
-http://95.211.250.54:80/TNT_HD/mono.m3u8
+http://89.65.227.181:8001/1:0:1:1cbf:1ce8:71:820000:0:0:0:
 #EXTINF:1 tvg-id="" tvg-language="Polish" tvg-logo="https://i.imgur.com/YF0U4zI.png" group-title="Poland",Top Kids
 http://91.226.51.126:8000/udp/239.100.10.115:2234
 #EXTINF:1 tvg-id="TravelChannelPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/lXXBeq5.png" group-title="Poland",Travel Channel Polska
