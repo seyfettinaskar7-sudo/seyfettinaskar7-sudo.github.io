@@ -58,7 +58,7 @@ http://81.15.109.89:8001/play/CanalDokument
 #EXTINF:1 tvg-id="CanalPlusDomo.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/kdv1VhR.png" group-title="Poland",CANAL+ DOMO HD
 http://89.65.227.181:8001/1:0:1:13EF:5DC:13E:820000:0:0:0:
 #EXTINF:1 tvg-id="CanalPlusFamilyPolska.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/XyPSyNL.png" group-title="Poland",CANAL+ FAMILY HD
-http://95.211.250.54:80/CANAL+_FAMILY/tracks-v1a1/mono.m3u8
+http://89.65.227.181:8001/1:0:19:377B:44C:13E:820000:0:0:0:
 #EXTINF:1 tvg-id="CanalPlusFilm.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/wIsqGwA.png" group-title="Poland",CANAL+ FILM HD
 http://95.211.250.54:80/CANAL+_FILM/tracks-v1a1/mono.m3u8
 #EXTINF:1 tvg-id="CanalPlusKuchnia.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/uA3S2DZ.png" group-title="Poland",CANAL+ KUCHNIA HD
