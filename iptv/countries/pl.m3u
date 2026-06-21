@@ -87,6 +87,8 @@ http://95.211.250.54:80/cbs_reality/mono.m3u8
 http://91.226.51.126:8000/udp/239.100.10.42:2234
 #EXTINF:-1,Cinemax HD
 http://81.15.109.89:8001/play/Cinemax
+#EXTINF:-1,Cinemax 2 HD
+http://89.65.227.181:8001/1:0:1:c26:1e78:71:820000:0:0:0:
 #EXTINF:1 tvg-id="DaVinciPolska.de" tvg-language="Polish" tvg-logo="https://i.imgur.com/aK9Ab3b.png" group-title="Poland",Da Vinci Polska
 http://95.211.250.54:80/da_vinci/mono.m3u8
 #EXTINF:-1,DORCEL TV HD
