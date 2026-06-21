@@ -2,289 +2,278 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube,Web,m3u8,kick ve Twitch Oynatící</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tam Ekran Gelişmiş Medya Oynatıcı</title>
     
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <link href="https://vjs.zencdn.net/8.10.0/video-js-city.css" rel="stylesheet" />
 
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #0c0c0c;
-            color: #ffffff;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        body { 
+            margin: 0; 
+            background: #0a0a0a; 
+            color: #fff; 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            padding: 10px; 
         }
-        h2 {
-            margin-bottom: 15px;
-            color: #007bff;
+        
+        /* Mobil Öncelikli Büyük Oynatıcı Alanı */
+        .player-wrapper { 
+            width: 100%; 
+            max-width: 1000px; 
+            margin: 0 auto; 
         }
-        /* Sayfa Genişliği Büyük Ekran İçin 1400px'e Çıkarıldı */
-        .container {
-            display: flex;
-            width: 100%;
-            max-width: 1400px;
-            gap: 20px;
-        }
-        /* Oynatıcı Bölümü Genişletildi (flex: 3) */
-        .player-section {
-            flex: 3;
-            background: #161616;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.7);
-        }
-        /* Kanal Listesi Bölümü (flex: 1) */
-        .playlist-section {
-            flex: 1;
-            background: #161616;
-            padding: 20px;
-            border-radius: 12px;
-            max-height: 680px;
-            display: flex;
-            flex-direction: column;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.7);
-        }
-        /* KESİN 16:9 ORANI SAĞLAYAN YAPI */
+        
         .video-container {
             position: relative;
             width: 100%;
-            padding-top: 56.25%; /* 16:9 Aspect Ratio (9 / 16 = 0.5625) */
-            background-color: #000;
+            padding-top: 56.25%; /* Kesin 16:9 Oranı */
+            background: #000;
             border-radius: 8px;
             overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
         }
+        
         .video-js, .embed-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100% !important;
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100% !important; 
             height: 100% !important;
         }
+
         .embed-container iframe {
             width: 100%;
             height: 100%;
             border: none;
         }
-        .input-area {
-            width: 100%;
-            max-width: 1400px;
+
+        #playing-title {
+            margin: 10px 0;
+            font-size: 16px;
+            text-align: center;
+            color: #007bff;
+        }
+
+        /* Kontrol Elemanları */
+        .controls { 
+            max-width: 1000px;
+            margin: 10px auto;
+            display: flex; 
+            gap: 8px; 
+            flex-direction: column; 
+        }
+        
+        .input-row {
             display: flex;
-            gap: 10px;
-            margin-bottom: 15px;
+            gap: 8px;
         }
-        input, select, button {
-            padding: 12px;
-            border-radius: 6px;
-            border: 1px solid #2a2a2a;
-            background-color: #1e1e1e;
+
+        input, select, button { 
+            padding: 12px; 
+            font-size: 15px; 
+            border-radius: 6px; 
+            border: 1px solid #222; 
+            background: #161616;
             color: white;
-            font-size: 14px;
         }
+        
         input { flex: 1; }
-        button {
-            background-color: #007bff;
+        
+        button { 
+            background: #007bff; 
+            color: white; 
+            font-weight: bold; 
             cursor: pointer;
             border: none;
-            font-weight: bold;
-            transition: 0.3s;
-            padding-left: 25px;
-            padding-right: 25px;
         }
-        button:hover { background-color: #0056b3; }
-        .search-box {
-            padding: 10px;
-            margin-bottom: 15px;
-            width: 100%;
-            box-sizing: border-box;
-            background-color: #222;
-        }
-        .channel-list {
+        button:hover { background: #0056b3; }
+
+        /* Kanal Listesi Alanı */
+        .playlist-wrapper { max-width: 1000px; margin: 15px auto; }
+        .channel-list { 
+            list-style: none; 
+            padding: 0; 
+            margin: 10px 0 0 0;
+            max-height: 400px;
             overflow-y: auto;
-            flex: 1;
-            list-style: none;
-            padding: 0;
-            margin: 0;
         }
-        .channel-item {
-            padding: 12px;
-            border-bottom: 1px solid #222;
+        
+        .channel-item { 
+            display: flex; 
+            align-items: center; 
+            padding: 12px; 
+            background: #161616; 
+            margin-bottom: 6px; 
+            border-radius: 6px; 
             cursor: pointer;
             transition: 0.2s;
-            display: flex;
-            align-items: center;
-            font-size: 15px;
         }
-        .channel-item:hover { background-color: #252525; }
-        .channel-item img {
-            width: 35px;
-            height: 35px;
-            object-fit: contain;
-            margin-right: 12px;
-            border-radius: 6px;
-            background: #fff;
-        }
+        .channel-item:hover { background: #222; }
+        .channel-item img { width: 35px; height: 35px; margin-right: 12px; border-radius: 4px; object-fit: contain; background: #fff;}
+        
         .hidden { display: none !important; }
-        #playing-title {
-            margin-top: 15px;
-            font-size: 18px;
-            font-weight: 500;
-        }
     </style>
 </head>
 <body>
 
-    <h2>Çok Amaçlı Sinema Modu Oynatıcı</h2>
+<div class="player-wrapper">
+    <div class="video-container">
+        <video id="main-player" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto"></video>
+        <div id="embed-container" class="embed-container hidden"></div>
+    </div>
+    <div id="playing-title">Şu an oynatılan: Hazır</div>
+</div>
 
-    <div class="input-area">
+<div class="controls">
+    <div class="input-row">
         <select id="stream-type">
-            <option value="auto">Otomatik Oynatıcı (.m3u8, YouTube vb.)</option>
+            <option value="auto">Otomatik Oynatıcı (.m3u8, YouTube, Dailymotion)</option>
             <option value="twitch">Twitch Kanalı</option>
             <option value="kick">Kick Kanalı</option>
-            <option value="iframe">Web Sitesi (Embed/Iframe)</option>
+            <option value="iframe">Web Sitesi (Iframe)</option>
         </select>
-        <input type="text" id="stream-url" placeholder="Video, canlı yayın veya m3u8 linki yapıştırın...">
         <button onclick="playManualUrl()">Oynat</button>
     </div>
+    <input type="text" id="stream-url" placeholder="Video ID, URL, canlı yayın veya m3u8 linki yapıştırın...">
+</div>
 
-    <div class="container">
-        <div class="player-section">
-            <div class="video-container">
-                <video id="main-player" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto"></video>
-                
-                <div id="embed-container" class="embed-container hidden"></div>
-            </div>
-            <h3 id="playing-title">Şu an oynatılan: <span style="color:#007bff;">Hazır</span></h3>
-        </div>
+<div class="playlist-wrapper">
+    <input type="text" id="search" placeholder="Kanal ara..." style="width:100%; box-sizing:border-box;" oninput="filterChannels()">
+    <ul id="channel-list" class="channel-list">
+        <li style="padding:12px;">Kanallar yükleniyor...</li>
+    </ul>
+</div>
 
-        <div class="playlist-section">
-            <h3 style="margin-top: 0;">Kanal Listesi</h3>
-            <input type="text" id="search-channel" class="search-box" placeholder="Kanal ara..." oninput="filterChannels()">
-            <ul id="channel-list" class="channel-list">
-                <li style="padding:10px;">Kanallar yükleniyor...</li>
-            </ul>
-        </div>
-    </div>
+<script src="https://vjs.zencdn.net/8.10.0/video.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/3.0.1/videojs-youtube.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/videojs-dailymotion@1.3.1/dist/videojs-dailymotion.min.js"></script>
 
-    <script src="https://vjs.zencdn.net/8.10.0/video.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/3.0.1/videojs-youtube.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/videojs-dailymotion@1.3.1/dist/videojs-dailymotion.min.js"></script>
+<script>
+    // Video.js Kurulumu
+    let player = videojs('main-player', {
+        techOrder: ["html5", "youtube", "dailymotion"],
+        responsive: true,
+        fluid: true
+    });
 
-    <script>
-        let player = videojs('main-player', {
-            techOrder: ["html5", "youtube", "dailymotion"],
-            responsive: true,
-            fluid: true
+    const playerEl = document.getElementById('main-player');
+    const embedContainer = document.getElementById('embed-container');
+    const playingTitle = document.getElementById('playing-title');
+    let rawChannels = [];
+
+    // YOUTUBE ID AYRIŞTIRICI FONKSİYON (REGEX)
+    function getYouTubeId(url) {
+        // Eğer kullanıcı doğrudan 11 haneli ID girdiyse onu koru
+        if (url.length === 11 && !url.includes('/') && !url.includes('.')) {
+            return url;
+        }
+        const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+        const match = url.match(regExp);
+        return (match && match[2].length === 11) ? match[2] : null;
+    }
+
+    // M3U PLAYLIST FETCH İŞLEMİ
+    fetch("https://iptv-org.github.io/iptv/countries/tr.m3u")
+    .then(response => response.text())
+    .then(data => parseM3U(data))
+    .catch(err => {
+        document.getElementById('channel-list').innerHTML = `<li style="color:red; padding:12px;">Liste yüklenemedi!</li>`;
+    });
+
+    function parseM3U(data) {
+        const lines = data.split('\n');
+        let channels = [];
+        let currentChannel = {};
+
+        for (let i = 0; i < lines.length; i++) {
+            let line = lines[i].trim();
+            if (line.startsWith('#EXTINF:')) {
+                let logoMatch = line.match(/tvg-logo="([^"]+)"/);
+                let logo = logoMatch ? logoMatch[1] : 'https://via.placeholder.com/35?text=TV';
+                let name = line.split(',').pop().trim();
+                currentChannel = { name: name, logo: logo };
+            } else if (line.startsWith('http')) {
+                currentChannel.url = line;
+                channels.push(currentChannel);
+                currentChannel = {};
+            }
+        }
+        rawChannels = channels;
+        renderChannels(channels);
+    }
+
+    function renderChannels(channels) {
+        const listContainer = document.getElementById('channel-list');
+        listContainer.innerHTML = '';
+        channels.forEach(channel => {
+            let li = document.createElement('li');
+            li.className = 'channel-item';
+            li.innerHTML = `<img src="${channel.logo}" onerror="this.src='https://via.placeholder.com/35?text=TV'"> <span>${channel.name}</span>`;
+            li.onclick = () => playMedia(channel.url, channel.name, 'auto');
+            listContainer.appendChild(li);
         });
+    }
 
-        const playerEl = document.getElementById('main-player');
-        const embedContainer = document.getElementById('embed-container');
-        const playingTitle = document.getElementById('playing-title');
-        let rawChannels = []; 
+    function filterChannels() {
+        let query = document.getElementById('search').value.toLowerCase();
+        let filtered = rawChannels.filter(c => c.name.toLowerCase().includes(query));
+        renderChannels(filtered);
+    }
 
-        const m3uUrl = "https://seyfettinaskar7-sudo.github.io/iptv/countries/tr.m3u";
-        
-        fetch(m3uUrl)
-            .then(response => response.text())
-            .then(data => parseM3U(data))
-            .catch(err => {
-                document.getElementById('channel-list').innerHTML = `<li style="color:red; padding:10px;">Liste yüklenemedi!</li>`;
-                console.error(err);
-            });
+    // MEDYA OYNATICI MOTORU
+    function playMedia(url, title, type) {
+        playingTitle.innerHTML = `Şu an oynatılan: <span style="color:#007bff;">${title}</span>`;
+        url = url.trim();
 
-        function parseM3U(data) {
-            const lines = data.split('\n');
-            let channels = [];
-            let currentChannel = {};
+        player.pause();
+        playerEl.classList.add('hidden');
+        embedContainer.classList.add('hidden');
+        embedContainer.innerHTML = '';
 
-            for (let i = 0; i < lines.length; i++) {
-                let line = lines[i].trim();
-                if (line.startsWith('#EXTINF:')) {
-                    let logoMatch = line.match(/tvg-logo="([^"]+)"/);
-                    let logo = logoMatch ? logoMatch[1] : 'https://via.placeholder.com/35?text=TV';
-                    let nameParts = line.split(',');
-                    let name = nameParts[nameParts.length - 1].trim();
-                    currentChannel = { name: name, logo: logo };
-                } else if (line.startsWith('http')) {
-                    currentChannel.url = line;
-                    channels.push(currentChannel);
-                    currentChannel = {};
-                }
+        // Otomatik veya manuel YouTube tespiti
+        let ytId = getYouTubeId(url);
+
+        if (ytId) {
+            // Eğer URL bir YouTube linkiyse ID'sini temizle ve Video.js YouTube formatında oynat
+            playerEl.classList.remove('hidden');
+            player.src({ type: "video/youtube", src: `https://www.youtube.com/watch?v=${ytId}` });
+            player.play().catch(e => console.log("Oynatma tetiklendi."));
+        } 
+        else if (type === 'twitch' || url.includes('twitch.tv')) {
+            embedContainer.classList.remove('hidden');
+            let channelName = url.split('/').pop().split('?')[0];
+            embedContainer.innerHTML = `<iframe src="https://player.twitch.tv/?channel=${channelName}&parent=${window.location.hostname}" allowfullscreen="true"></iframe>`;
+        } 
+        else if (type === 'kick' || url.includes('kick.com')) {
+            embedContainer.classList.remove('hidden');
+            let channelName = url.split('/').pop().split('?')[0];
+            embedContainer.innerHTML = `<iframe src="https://player.kick.com/${channelName}" allowfullscreen="true"></iframe>`;
+        } 
+        else if (type === 'iframe') {
+            embedContainer.classList.remove('hidden');
+            embedContainer.innerHTML = `<iframe src="${url}" allowfullscreen="true"></iframe>`;
+        } 
+        else {
+            // Standart Akışlar (.m3u8, mp4 veya Dailymotion)
+            playerEl.classList.remove('hidden');
+            let srcType = "application/x-mpegURL";
+            if (url.includes('dailymotion.com') || url.includes('dai.ly')) {
+                srcType = "video/dailymotion";
+            } else if (url.endsWith('.mp4')) {
+                srcType = "video/mp4";
             }
-            rawChannels = channels;
-            renderChannels(channels);
+            player.src({ type: srcType, src: url });
+            player.play().catch(e => console.log("Oynatma tetiklendi."));
         }
+    }
 
-        function renderChannels(channels) {
-            const listContainer = document.getElementById('channel-list');
-            listContainer.innerHTML = '';
-            if(channels.length === 0) {
-                listContainer.innerHTML = '<li style="padding:10px;">Kanal bulunamadı.</li>';
-                return;
-            }
-            channels.forEach(channel => {
-                let li = document.createElement('li');
-                li.className = 'channel-item';
-                li.innerHTML = `<img src="${channel.logo}" onerror="this.src='https://via.placeholder.com/35?text=TV'"> <span>${channel.name}</span>`;
-                li.onclick = () => playMedia(channel.url, channel.name, 'auto');
-                listContainer.appendChild(li);
-            });
-        }
-
-        function filterChannels() {
-            let query = document.getElementById('search-channel').value.toLowerCase();
-            let filtered = rawChannels.filter(c => c.name.toLowerCase().includes(query));
-            renderChannels(filtered);
-        }
-
-        function playMedia(url, title, type) {
-            playingTitle.innerHTML = `Şu an oynatılan: <span style="color:#007bff;">${title}</span>`;
-            url = url.trim();
-
-            player.pause();
-            playerEl.classList.add('hidden');
-            embedContainer.classList.add('hidden');
-            embedContainer.innerHTML = '';
-
-            if (type === 'twitch' || url.includes('twitch.tv')) {
-                embedContainer.classList.remove('hidden');
-                let channelName = url.split('/').pop().split('?')[0];
-                embedContainer.innerHTML = `<iframe src="https://player.twitch.tv/?channel=${channelName}&parent=${window.location.hostname}" allowfullscreen="true"></iframe>`;
-            } 
-            else if (type === 'kick' || url.includes('kick.com')) {
-                embedContainer.classList.remove('hidden');
-                let channelName = url.split('/').pop().split('?')[0];
-                embedContainer.innerHTML = `<iframe src="https://player.kick.com/${channelName}" allowfullscreen="true"></iframe>`;
-            } 
-            else if (type === 'iframe') {
-                embedContainer.classList.remove('hidden');
-                embedContainer.innerHTML = `<iframe src="${url}" allowfullscreen="true"></iframe>`;
-            } 
-            else {
-                playerEl.classList.remove('hidden');
-                let srcType = "application/x-mpegURL";
-                if (url.includes('youtube.com') || url.includes('youtu.be')) {
-                    srcType = "video/youtube";
-                } else if (url.includes('dailymotion.com') || url.includes('dai.ly')) {
-                    srcType = "video/dailymotion";
-                } else if (url.endsWith('.mp4')) {
-                    srcType = "video/mp4";
-                }
-                player.src({ type: srcType, src: url });
-                player.play().catch(e => console.log("Oynatma başlatılamadı, tıklayarak başlatın."));
-            }
-        }
-
-        function playManualUrl() {
-            let url = document.getElementById('stream-url').value;
-            let type = document.getElementById('stream-type').value;
-            if(!url) return alert("Lütfen bir URL girin!");
-            playMedia(url, "Harici Kaynak", type);
-        }
-    </script>
+    function playManualUrl() {
+        let url = document.getElementById('stream-url').value;
+        let type = document.getElementById('stream-type').value;
+        if(!url) return alert("Lütfen bir URL veya Video ID girin!");
+        playMedia(url, "Harici Kaynak", type);
+    }
+</script>
 </body>
 </html>
