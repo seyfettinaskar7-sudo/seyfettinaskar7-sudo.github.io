@@ -79,6 +79,10 @@ http://81.15.109.89:8001/play/CanalSport4
 http://81.15.109.89:8001/play/CanalSport5
 #EXTINF:1 tvg-id="CartoonNetworkPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/QcGQ2Ub.png" group-title="Poland",Cartoon Network Polska
 http://95.211.250.54:80/CARTOON_NETWORK/mono.m3u8
+#EXTINF:-1,CBS Action
+http://89.65.227.181:8001/1:0:1:4282:2BC0:13E:820000:0:0:0:
+#EXTINF:-1,CBS Europa
+http://89.65.227.181:8001/1:0:1:290b:1edc:71:820000:0:0:0:
 #EXTINF:1 tvg-id="CBSRealityPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/H5AEEVH.png" group-title="Poland",CBS Reality Polska
 http://95.211.250.54:80/cbs_reality/mono.m3u8
 #EXTINF:1 tvg-id="ComedyCentralPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/ZiykPSE.png" group-title="Poland",Comedy Central Polska
