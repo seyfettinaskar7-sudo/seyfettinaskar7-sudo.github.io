@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Tam Ekran Gelişmiş Medya Oynatıcı</title>
+    <title>Akıllı Akış Medya Oynatıcı</title>
     
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <link href="https://vjs.zencdn.net/8.10.0/video-js-city.css" rel="stylesheet" />
@@ -17,7 +17,7 @@
             padding: 10px; 
         }
         
-        /* Mobil Öncelikli Büyük Oynatıcı Alanı */
+        /* Mobil Öncelikli Büyük 16:9 Oynatıcı Alanı */
         .player-wrapper { 
             width: 100%; 
             max-width: 1000px; 
@@ -55,22 +55,16 @@
             color: #007bff;
         }
 
-        /* Kontrol Elemanları */
+        /* Tek Satır Akıllı Kontrol Alanı */
         .controls { 
             max-width: 1000px;
             margin: 10px auto;
             display: flex; 
             gap: 8px; 
-            flex-direction: column; 
-        }
-        
-        .input-row {
-            display: flex;
-            gap: 8px;
         }
 
-        input, select, button { 
-            padding: 12px; 
+        input, button { 
+            padding: 14px; 
             font-size: 15px; 
             border-radius: 6px; 
             border: 1px solid #222; 
@@ -86,6 +80,8 @@
             font-weight: bold; 
             cursor: pointer;
             border: none;
+            padding-left: 25px;
+            padding-right: 25px;
         }
         button:hover { background: #0056b3; }
 
@@ -126,16 +122,8 @@
 </div>
 
 <div class="controls">
-    <div class="input-row">
-        <select id="stream-type">
-            <option value="auto">Otomatik Oynatıcı (.m3u8, YouTube, Dailymotion)</option>
-            <option value="twitch">Twitch Kanalı</option>
-            <option value="kick">Kick Kanalı</option>
-            <option value="iframe">Web Sitesi (Iframe)</option>
-        </select>
-        <button onclick="playManualUrl()">Oynat</button>
-    </div>
-    <input type="text" id="stream-url" placeholder="Video ID, URL, canlı yayın veya m3u8 linki yapıştırın...">
+    <input type="text" id="stream-url" placeholder="YouTube, m3u8, Twitch, Kick linki veya YouTube ID yapıştırın...">
+    <button onclick="playManualUrl()">Oynat</button>
 </div>
 
 <div class="playlist-wrapper">
@@ -150,7 +138,6 @@
 <script src="https://cdn.jsdelivr.net/npm/videojs-dailymotion@1.3.1/dist/videojs-dailymotion.min.js"></script>
 
 <script>
-    // Video.js Kurulumu
     let player = videojs('main-player', {
         techOrder: ["html5", "youtube", "dailymotion"],
         responsive: true,
@@ -162,9 +149,8 @@
     const playingTitle = document.getElementById('playing-title');
     let rawChannels = [];
 
-    // YOUTUBE ID AYRIŞTIRICI FONKSİYON (REGEX)
+    // YOUTUBE ID AYRIŞTIRICI
     function getYouTubeId(url) {
-        // Eğer kullanıcı doğrudan 11 haneli ID girdiyse onu koru
         if (url.length === 11 && !url.includes('/') && !url.includes('.')) {
             return url;
         }
@@ -210,7 +196,7 @@
             let li = document.createElement('li');
             li.className = 'channel-item';
             li.innerHTML = `<img src="${channel.logo}" onerror="this.src='https://via.placeholder.com/35?text=TV'"> <span>${channel.name}</span>`;
-            li.onclick = () => playMedia(channel.url, channel.name, 'auto');
+            li.onclick = () => playMedia(channel.url, channel.name);
             listContainer.appendChild(li);
         });
     }
@@ -221,58 +207,71 @@
         renderChannels(filtered);
     }
 
-    // MEDYA OYNATICI MOTORU
-    function playMedia(url, title, type) {
+    // TAMAMEN OTOMATİK MEDYA MOTORU
+    function playMedia(url, title) {
         playingTitle.innerHTML = `Şu an oynatılan: <span style="color:#007bff;">${title}</span>`;
         url = url.trim();
 
+        // Oynatıcıları temizle ve gizle
         player.pause();
         playerEl.classList.add('hidden');
         embedContainer.classList.add('hidden');
         embedContainer.innerHTML = '';
 
-        // Otomatik veya manuel YouTube tespiti
+        // 1. YouTube Kontrolü
         let ytId = getYouTubeId(url);
-
         if (ytId) {
-            // Eğer URL bir YouTube linkiyse ID'sini temizle ve Video.js YouTube formatında oynat
             playerEl.classList.remove('hidden');
             player.src({ type: "video/youtube", src: `https://www.youtube.com/watch?v=${ytId}` });
-            player.play().catch(e => console.log("Oynatma tetiklendi."));
-        } 
-        else if (type === 'twitch' || url.includes('twitch.tv')) {
+            player.play().catch(e => {});
+            return;
+        }
+
+        // 2. Twitch Kontrolü
+        if (url.includes('twitch.tv')) {
             embedContainer.classList.remove('hidden');
             let channelName = url.split('/').pop().split('?')[0];
             embedContainer.innerHTML = `<iframe src="https://player.twitch.tv/?channel=${channelName}&parent=${window.location.hostname}" allowfullscreen="true"></iframe>`;
-        } 
-        else if (type === 'kick' || url.includes('kick.com')) {
+            return;
+        }
+
+        // 3. Kick Kontrolü
+        if (url.includes('kick.com')) {
             embedContainer.classList.remove('hidden');
             let channelName = url.split('/').pop().split('?')[0];
             embedContainer.innerHTML = `<iframe src="https://player.kick.com/${channelName}" allowfullscreen="true"></iframe>`;
-        } 
-        else if (type === 'iframe') {
-            embedContainer.classList.remove('hidden');
-            embedContainer.innerHTML = `<iframe src="${url}" allowfullscreen="true"></iframe>`;
-        } 
-        else {
-            // Standart Akışlar (.m3u8, mp4 veya Dailymotion)
-            playerEl.classList.remove('hidden');
-            let srcType = "application/x-mpegURL";
-            if (url.includes('dailymotion.com') || url.includes('dai.ly')) {
-                srcType = "video/dailymotion";
-            } else if (url.endsWith('.mp4')) {
-                srcType = "video/mp4";
-            }
-            player.src({ type: srcType, src: url });
-            player.play().catch(e => console.log("Oynatma tetiklendi."));
+            return;
         }
+
+        // 4. Dailymotion Kontrolü
+        if (url.includes('dailymotion.com') || url.includes('dai.ly')) {
+            playerEl.classList.remove('hidden');
+            player.src({ type: "video/dailymotion", src: url });
+            player.play().catch(e => {});
+            return;
+        }
+
+        // 5. Standart Canlı Yayın veya Medya (.m3u8, .mp4 vb.)
+        if (url.includes('.m3u8') || url.includes('.mp4') || url.startsWith('http')) {
+            // Güvenlik politikası nedeniyle doğrudan iframe'de açılmaması gereken bilinen siteler hariç normal m3u8 tetiklemesi
+            if (!url.includes('.html') && !url.includes('.php')) {
+                playerEl.classList.remove('hidden');
+                let srcType = url.includes('.mp4') ? "video/mp4" : "application/x-mpegURL";
+                player.src({ type: srcType, src: url });
+                player.play().catch(e => {});
+                return;
+            }
+        }
+
+        // 6. Geri Kalan Her Şey İçin Genel Web Embed Sistemi
+        embedContainer.classList.remove('hidden');
+        embedContainer.innerHTML = `<iframe src="${url}" allowfullscreen="true"></iframe>`;
     }
 
     function playManualUrl() {
         let url = document.getElementById('stream-url').value;
-        let type = document.getElementById('stream-type').value;
-        if(!url) return alert("Lütfen bir URL veya Video ID girin!");
-        playMedia(url, "Harici Kaynak", type);
+        if(!url) return alert("Lütfen bir link veya ID girin!");
+        playMedia(url, "Harici Kaynak");
     }
 </script>
 </body>
