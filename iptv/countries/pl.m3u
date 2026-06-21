@@ -204,7 +204,7 @@ http://81.15.109.89:8001/play/Novelas
 #EXTINF:-1,Novela Tv
 http://81.15.109.89:8001/play/NovelaTV
 #EXTINF:1 tvg-id="NowaTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/gfVlgJ0.png" group-title="Poland",Nowa TV
-http://91.226.51.126:8000/udp/239.100.10.87:2234
+http://89.65.227.181:8001/1:0:16:10E5:3E8:13E:820000:0:0:0:
 #EXTINF:1 tvg-id="NSportPlus.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/QWvj5Fw.png" group-title="Poland",nSport+
 http://195.206.253.157:8201/nsport
 #EXTINF:1 tvg-id="NutaTV.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/8DtjWKp.png" group-title="Poland",Nuta.TV HD
