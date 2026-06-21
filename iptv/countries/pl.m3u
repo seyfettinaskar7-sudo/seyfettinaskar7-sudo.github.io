@@ -66,7 +66,7 @@ http://91.226.51.126:8000/udp/239.100.10.77:2234
 #EXTINF:1 tvg-id="CanalPlusPremium.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/11OIdeJ.png" group-title="Poland",CANAL+ PREMIUM HD
 http://95.211.250.54:80/CANAL+/tracks-v1a1/mono.m3u8
 #EXTINF:1 tvg-id="CanalPlusSeriale.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/DFFk6HG.png" group-title="Poland",CANAL+ SERIALE HD
-http://95.211.250.54:80/CANAL+_SERIALE/tracks-v1a1/mono.m3u8
+http://89.65.227.181:8001/1:0:19:3782:44C:13E:820000:0:0:0:
 #EXTINF:1 tvg-id="CanalPlusSportPolska.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/0msNXzQ.png" group-title="Poland",CANAL+ SPORT HD
 http://95.211.250.54:80/CANAL+_SPORT/tracks-v1a1/mono.m3u8
 #EXTINF:1 tvg-id="CanalPlusSport2Polska.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/I99zscl.png" group-title="Poland",CANAL+ SPORT 2 HD
