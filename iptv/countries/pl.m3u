@@ -53,6 +53,7 @@ http://95.211.250.54:80/BOOMERANG/mono.m3u8
 https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.tm5ELzwtPY6t.m3u8
 #EXTINF:1 tvg-id="CanalPlus1.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/ZFiQhvT.png" group-title="Poland",CANAL+1 HD
 http://89.65.227.181:8001/1:0:1:13ED:5DC:13E:820000:0:0:0:
+#EXTINF:1 tvg-id="CanalPlusDoscovery.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",CANAL+ DISCOVERY HD
 #EXTINF:1 tvg-id="CanalPlusDokument.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/AC33cm7.png" group-title="Poland",CANAL+ DOKUMENT HD
 http://81.15.109.89:8001/play/CanalDokument
 #EXTINF:1 tvg-id="CanalPlusDomo.pl" tvg-language="Polish" tvg-logo="https://i.imgur.com/kdv1VhR.png" group-title="Poland",CANAL+ DOMO HD
