@@ -157,9 +157,9 @@ http://81.15.109.89:8001/play/FilmCafe
 http://91.246.72.88:8000/play/a008/index.m3u8
 #EXTINF:1 tvg-id="FoodNetworkPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/TMYnWj4.png" group-title="Poland",Food Network Polska
 http://95.211.250.54:80/FOOD_NETWORK/mono.m3u8
-#EXTINF:1 tvg-id="FoxPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/cItGaUi.png" group-title="Poland",Fox Polska
-http://95.211.250.54:80/FOX/mono.m3u8
-#EXTINF:1 tvg-id="FoxComedyPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/ZFsgg9A.png" group-title="Poland",Fox Comedy Polska
+#EXTINF:1 tvg-id="FXPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/cItGaUi.png" group-title="Poland",Fx Polska
+http://89.65.227.181:8001/1:0:1:c27:1e78:71:820000:0:0:0:
+#EXTINF:1 tvg-id="FXComedyPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/ZFsgg9A.png" group-title="Poland",Fx Comedy Polska
 http://91.226.51.126:8000/udp/239.100.10.37:2234
 #EXTINF:1 tvg-id="HBOPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/mBDhEoI.png" group-title="Poland",HBO Polska
 http://81.15.109.89:8001/play/HBO
