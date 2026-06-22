@@ -279,17 +279,17 @@ https://streams.uzunmuhalefet.com/stream/0d7bcd25-1301-4ebf-bc8f-ccb7dec31577.m3
 https://streams.uzunmuhalefet.com/stream/3aae30d4-6a42-46f1-9e7b-7524748a940b.m3u8
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/d34e5e05-83e3-41d5-a8a9-fc7b3603aeb7.png" tvg-url="https://www.ekoltv.com.tr/ekol-sports",Ekol Sports
 https://streams.uzunmuhalefet.com/stream/e71f5266-932f-4348-a530-ee3a48520e3e.m3u8
-#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports 1 (1080p)
+#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports 1 
 http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=286&extension=m3u8
-#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports 2 (1080p)
+#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports 2 
 http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=289&extension=m3u8
-#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports 3 (1080p)
+#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports 3 
 http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=290&extension=m3u8
-#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports 4 (1080p)
+#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports 4 
 http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=291&extension=m3u8
-#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports Max 1 (1080p)
+#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports Max 1 
 http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=292&extension=m3u8
-#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports Max 2 (1080p)
+#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports Max 2 
 http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=293&extension=m3u8
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/1e9a70ac-702b-4f1a-b882-1ba795b75aa8.png" tvg-url="https://beinsports.com.tr/",beIN Sports Haber
 http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=285&extension=m3u8
@@ -297,6 +297,16 @@ http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=
 http://cdn.vizitv.workers.dev/106.m3u8
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/3d0c0f6a-3deb-4bfa-a0f7-243827fed0ff.png" tvg-url="https://www.tivibu.com.tr/",Tivibu Spor
 https://streams.uzunmuhalefet.com/stream/e47153e0-42fe-4980-8570-e840d1cc1cf4.m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/3d0c0f6a-3deb-4bfa-a0f7-243827fed0ff.png" tvg-url="https://www.tivibu.com.tr/",Tivibu Spor 1 
+http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=268&extension=m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/3d0c0f6a-3deb-4bfa-a0f7-243827fed0ff.png" tvg-url="https://www.tivibu.com.tr/",Tivibu Spor 2 
+http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=269&extension=m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/3d0c0f6a-3deb-4bfa-a0f7-243827fed0ff.png" tvg-url="https://www.tivibu.com.tr/",Tivibu Spor 3 
+http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=270&extension=m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://dsmart.com.tr/",Spor Smart 
+http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=301&extension=m3u8
+#EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://dsmart.com.tr/",Spor Smart 2 
+http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=302&extension=m3u8
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/e646809d-1bce-4f7b-9794-356028fdff33.png" tvg-url="https://www.sportstv.com.tr/",Sports TV
 https://streams.uzunmuhalefet.com/stream/fc7e93e6-d5e1-4a66-a1ad-5eaefaee388d.m3u8
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/c49e30f3-5917-452e-93ae-56886a8e8b04.png" tvg-url="https://www.fenerbahce.org/fenerbahcetv/canliyayin",FB TV
@@ -315,7 +325,7 @@ https://streams.uzunmuhalefet.com/stream/9a23eaad-ed04-4717-90a4-77984b84553e.m3
 https://ip44.radyotelekomtv.com:3710/stream/play.m3u8
 #EXTINF:0 type="stream" group-title="Spor" channelId="-1" tvg-logo="https://i.imgur.com/rX4L25C.png", Yeni Malatyaspor TV
 https://592f1881b3d5f.streamlock.net:1443/santraltv_925/santraltv_925/playlist.m3u8
-EXTINF:-1 tvg-id="MaçkolikTv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXBHGz5C0zLbrSyYyx-hHVzjcuOIXVocrhQXADivzPqqFiL-7Bo6LAiY&s=10" group-title="Spor", Maçkolik TV
+#EXTINF:-1 tvg-id="MaçkolikTv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXBHGz5C0zLbrSyYyx-hHVzjcuOIXVocrhQXADivzPqqFiL-7Bo6LAiY&s=10" group-title="Spor", Maçkolik TV
 https://mackolik-live.ercdn.net/mackolik/mackolik_1080p.m3u8
 #EXTINF:-1 tvg-id="tabii spor.tr"  tvg-logo="https://androbjk34.serv00.net/png/tabiispr.png" group-title="Spor",Tabii Spor
 http://live.tabitv.workers.dev/?ID=tabii%20spor
