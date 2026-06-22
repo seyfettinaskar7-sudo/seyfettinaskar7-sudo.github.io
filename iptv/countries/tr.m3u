@@ -427,7 +427,9 @@ https://streams.uzunmuhalefet.com/stream/507ebfe3-0c78-4804-b3be-637e9b45f5a0.m3
 https://streams.uzunmuhalefet.com/stream/d22a7171-68af-48ad-bd70-b2b6912fcdec.m3u8
 #EXTINF:-1 group-title="Çocuk" tvg-logo="https://assets.uzunmuhalefet.com/logos/5e11008b-c2d2-4f23-b6a1-d6f9af0e52ef.png" tvg-url="https://cartoonnetwork.com.tr/",Cartoon Network
 http://46.32.176.50/cartoonnetworkturk/index.m3u8
-#EXTINF:-1 group-title="Çocuk" tvg-logo="" tvg-url="https://dsmart.com.tr/" tvg-id="CocukSmart.tr",Çocuk Smart
+#EXTINF:-1 group-title="Çocuk" tvg-logo="" tvg-url="https://cartoonnetwork.com.tr/",Cartoonito
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6850/index.m3u8
+#EXTINF:-1 group-title="Çocuk" tvg-logo="" tvg-url="https://dsmart.com.tr/",Çocuk Smart
 http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=425&extension=m3u8
 #EXTINF:-1 group-title="Çocuk" tvg-logo="https://assets.uzunmuhalefet.com/logos/386b1c8d-7d83-47fe-a01c-528503cf8979.png" tvg-url="https://cocuk.diyanet.gov.tr/",Diyanet Çocuk
 https://streams.uzunmuhalefet.com/stream/401bd713-28c9-4428-9e26-63703d3cee5e.m3u8
