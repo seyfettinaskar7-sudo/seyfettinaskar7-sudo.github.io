@@ -31,7 +31,7 @@
     "type": "channel",
     "name": "ABB TV",
     "slug": "abb-tv",
-    "id": "rCIcbxUIrTI",
+    "id": "UCHPDorZxpe9c6WDnXKHCjYA",
     "subfolder": "yerel"
   },
   {
@@ -52,7 +52,7 @@
     "type": "channel",
     "name": "Akit TV",
     "slug": "akit-tv",
-    "id": "ds7aS4H1fbs",
+    "id": "UCbaLyHJp6S9Lsj6oT9aJsQw",
     "subfolder": "haber"
   },
   {
@@ -115,7 +115,7 @@
     "type": "channel",
     "name": "Aşk-ı Neva",
     "slug": "aski-neva",
-    "id": "YWgUVKnuquQ",
+    "id": "UCJ5bBXls09z7Cjwg-qBzAZQ",
     "subfolder": "dini"
   },
   {
@@ -199,7 +199,7 @@
     "type": "channel",
     "name": "Bizim Ev TV",
     "slug": "bizimevtv",
-    "id": "WvN0FE5jqKs",
+    "id": "UCIHMK8qtjB_GNuXmeex6i8g",
     "subfolder": "diger"
   },
   {
@@ -290,7 +290,7 @@
     "type": "channel",
     "name": "Diyanet Çocuk",
     "slug": "diyanet-cocuk",
-    "id": "_VsMIRdOtXI&pp=uAQw",
+    "id": "UCCfTktnzWK__FUN4gj0zIpA",
     "subfolder": "cocuk"
   },
   {
@@ -332,7 +332,7 @@
     "type": "channel",
     "name": "Ekotürk",
     "slug": "ekoturk",
-    "id": "GUJpUMf0H1Q",
+    "id": "UCAGVKxpAKwXMWdmcHbrvcwQ",
     "subfolder": "haber"
   },
   {
@@ -444,7 +444,7 @@
     "type": "channel",
     "name": "Huzur Pınarı",
     "slug": "huzur-pinari",
-    "id": "xXd-y-Estlk",
+    "id": "UC4dIaCkMaq1vXskR0q2V-dw",
     "subfolder": "dini"
   },
   {
@@ -570,7 +570,7 @@
     "type": "channel",
     "name": "KRT TV",
     "slug": "krttv",
-    "id": "R8sVr1z_Cug",
+    "id": "UCVKWwHoLwUMMa80cu_1uapA",
     "subfolder": "haber"
   },
   {
@@ -668,7 +668,7 @@
     "type": "channel",
     "name": "MPL TV",
     "slug": "mpl-tv",
-    "id": "VjKk5-7G59g",
+    "id": "UCTr00Butm_gEZmbUz_KI9gg",
     "subfolder": "dini"
   },
   {
@@ -731,7 +731,7 @@
     "type": "channel",
     "name": "Nur TV",
     "slug": "nur-tv",
-    "id": "jWoIoUzCtBU",
+    "id": "UCW9SRQR959QnMXEWDKNYHeg",
     "subfolder": "dini"
   },
   {
@@ -836,7 +836,7 @@
     "type": "channel",
     "name": "Tele Mini",
     "slug": "tele-mini",
-    "id": "EYLm5IxWkA4",
+    "id": "UCiZyPXSdQB4fCqcCeYHsO_w",
     "subfolder": "cocuk"
   },
   {
@@ -857,14 +857,7 @@
     "type": "channel",
     "name": "TGRT Belgesel",
     "slug": "tgrt-belgesel",
-    "id": "32y7IEtD5OU",
-    "subfolder": "diger"
-  },
-  {
-    "type": "video",
-    "name": "TGRT EU",
-    "slug": "tgrt-eu",
-    "id": "rk0X7nza9GQ",
+    "id": "UCkQV7uH1Otv47CZz6tD3jGQ",
     "subfolder": "diger"
   },
   {
@@ -885,7 +878,7 @@
     "type": "channel",
     "name": "TLC Suç ve Araştırma",
     "slug": "tlc-suc-arastirma",
-    "id": "mNWridzb-Ls",
+    "id": "UC5AeaBZIUZQpVeGMobcPI2Q",
     "subfolder": "dizi"
   },
   {
@@ -938,10 +931,10 @@
     "subfolder": "film"
   },
   {
-    "type": "video",
+    "type": "channel",
     "name": "Türkiye Gazetesi",
     "slug": "turkiye-gazetesi",
-    "id": "Lh4G7OULgA4",
+    "id": "UCJET1tOY_ogUK-J9wqVVJYg",
     "subfolder": "haber"
   },
   {
@@ -1015,24 +1008,24 @@
     "subfolder": "dizi"
   },
   {
-    "type": "video",
+    "type": "channel",
     "name": "Fatih Çıtlak",
     "slug": "fatih-citlak",
-    "id": "H4csGHRfGyI",
+    "id": "UCZfMjudzCqciwj5rGqF6jLA",
     "subfolder": "dini"
   },
   {
     "type": "channel",
     "name": "Berkan Ural Music",
     "slug": "berkan-ural",
-    "id": "0lWJs0MBnYY",
+    "id": "UCoJqwTgi_lZpqKKai2na7kQ",
     "subfolder": "muzik"
   },
   {
     "type": "channel",
     "name": "Serkan Uca",
     "slug": "serkan-uca",
-    "id": "JRQGif7Y7Kg",
+    "id": "UCFzn3ls-N6pg8bHhj0D8z8Q",
     "subfolder": "muzik"
   },
   {
@@ -1060,7 +1053,7 @@
     "type": "channel",
     "name": "Kanal 7",
     "slug": "kanal7",
-    "id": "nL8WXo7FWSs",
+    "id": "UCcSTvyzpNjH__VgvDSArSEw",
     "subfolder": "ulusal"
   },
   {
