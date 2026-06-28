@@ -292,7 +292,7 @@ http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=
 #EXTINF:-1 group-title="Spor" tvg-logo="" tvg-url="https://beinsports.com.tr",beIN Sports Max 2 
 http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=293&extension=m3u8
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/1e9a70ac-702b-4f1a-b882-1ba795b75aa8.png" tvg-url="https://beinsports.com.tr/",beIN Sports Haber
-http://vipplayer1.com:8080/play/live.php?mac=00%3A1A%3A79%3A73%3A3F%3A18&stream=285&extension=m3u8
+http://5.178.103.239:55/yt1/bh.m3u8
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/dee8ad2f-7537-44ef-bec2-cda64cd5b831.png" tvg-url="https://www.sifirtv.com/",Sıfır TV
 http://cdn.vizitv.workers.dev/106.m3u8
 #EXTINF:-1 group-title="Spor" tvg-logo="https://assets.uzunmuhalefet.com/logos/3d0c0f6a-3deb-4bfa-a0f7-243827fed0ff.png" tvg-url="https://www.tivibu.com.tr/",Tivibu Spor
