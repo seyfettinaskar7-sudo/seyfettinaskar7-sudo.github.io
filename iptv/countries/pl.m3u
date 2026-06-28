@@ -102,9 +102,9 @@ http://89.65.227.181:8001/1:0:1:1c93:1ce8:71:820000:0:0:0:
 #EXTINF:1 tvg-id="DiscoveryHistoria.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/bESeIRn.png" group-title="Poland",Discovery Historia
 http://89.65.227.181:8001/1:0:1:db2:2d50:13e:820000:0:0:0:
 #EXTINF:1 tvg-id="DiscoveryLifePolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/vQ9aMsO.png" group-title="Poland",Discovery Life Polska
-http://95.211.250.54:80/DISCOVERY_LIFE/mono.m3u8
+http://89.65.227.181:8001/1:0:1:3d56:2c88:13e:820000:0:0:0:
 #EXTINF:1 tvg-id="DiscoverySciencePolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/XIwvyAj.png" group-title="Poland",Discovery Science Polska
-http://95.211.250.54:80/DISCOVERY_SCIENCE/mono.m3u8
+http://89.65.227.181:8001/1:0:1:1cc2:1ce8:71:820000:0:0:0:
 #EXTINF:1 tvg-id="DisneyChannelPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/TYWN4XS.png" group-title="Poland",Disney Channel Polska
 http://81.15.109.89:8001/play/DisneyChannel
 #EXTINF:1 tvg-id="DisneyJuniorTurkiyePolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/uDYSoHj.png" group-title="Poland",Disney Junior Polska
