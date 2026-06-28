@@ -80,7 +80,7 @@ http://81.15.109.89:8001/play/CanalSport4
 #EXTINF:1 tvg-id="CanalPlusSport5Polska.pl" tvg-language="Polish" tvg-logo="" group-title="Poland",CANAL+ SPORT 5 HD
 http://81.15.109.89:8001/play/CanalSport5
 #EXTINF:1 tvg-id="CartoonNetworkPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/QcGQ2Ub.png" group-title="Poland",Cartoon Network Polska
-http://95.211.250.54:80/CARTOON_NETWORK/mono.m3u8
+https://r.dcs.redcdn.pl/livedash/o2/tvnplayer/live/cn/live.isml/playlist.mpd?indexMode=&dummyfile=&server_side_events=0&dvr=7200000
 #EXTINF:-1,CBS Action
 http://89.65.227.181:8001/1:0:1:4282:2BC0:13E:820000:0:0:0:
 #EXTINF:1 tvg-id="CBSRealityPolska.us" tvg-language="Polish" tvg-logo="https://i.imgur.com/H5AEEVH.png" group-title="Poland",CBS Reality Polska
